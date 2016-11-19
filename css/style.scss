@@ -1,0 +1,325 @@
+@charset "utf-8";
+
+@import url("//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+@import "reset";
+@import "variables";
+@import "grid";
+@import "hover";
+@import "responsive";
+
+$primary-color: #BFA1E3;
+$poster-txt: #6f6c73;
+$grey-25: #d0d0d0;
+$grey-txt: #9d9d9c;
+$grey-txt-d1: $poster-txt;
+$white: #fff;
+$border-radius-base: 3px;
+
+/********************************************
+GENERAL
+********************************************/
+
+* { 
+  font-family: "Spoqa Han Sans","Source Sans Pro",Apple SD Gothic Neo,Nanum Barun Gothic,Nanum Gothic,"돋움",Dotum,Verdana,Arial,sans-serif; 
+  color: $grey-txt-d1;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 5%;
+}
+
+a {
+  color: $grey-txt-d1;
+  transition: 0.2s ease;
+  &:hover {
+    color: $grey-txt-d1;    
+  }
+}
+
+h1 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 0.8em;
+  line-height: 1.8em;
+}
+
+ol li, ul li {
+  font-size: 0.8em;
+  line-height: 1.6em;
+}
+
+section {
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 700; 
+  margin-bottom: 50px; 
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  background-color: $primary-color;
+}
+
+
+/********************************************
+NAVIGATION
+********************************************/
+
+nav {
+  padding-top: 34px;
+  padding-bottom: 14px;
+  z-index: 1100;
+  top: 0;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+20,ffffff+90&1+20,0.5+90 */
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 20%, rgba(255,255,255,0.5) 90%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 20%,rgba(255,255,255,0.5) 90%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,255,255,1) 20%,rgba(255,255,255,0.5) 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#80ffffff',GradientType=0 ); /* IE6-9 */
+
+
+  #logo {
+    text-decoration: none;
+    color: $grey-txt-d1;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  h1, .text-bold {
+    margin-bottom: 20px;
+    
+  }
+
+  .site-title {
+    font-size: 1.3em;
+    display: inline-block;
+    margin-top: 4px;
+  }
+
+  .exhibition-info-title {
+    color: $grey-txt-d1;
+  }
+}
+
+ul.nav-menu {
+  display: inline;
+  float: right;
+  text-align: right;
+  font-size: 22px;
+  position: fixed;
+  top: 34px;
+  right: 154px;
+  
+  li {
+    padding: 0px 4px;
+    margin-bottom: 12px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $grey-txt-d1;
+    font-weight: 700;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    -webkit-transition: box-shadow .20s ease-out;
+    -moz-transition: box-shadow .20s ease-out;
+    -o-transition: box-shadow .20s ease-out;
+    transition: box-shadow .20s ease-out;
+
+    &:hover {
+      border-bottom: 2px solid rgba($primary-color, 0.8);
+      box-shadow: inset 0 -12px 0 rgba($primary-color, 0.8);
+    }
+  }
+}  
+
+/********************************************
+MAIN
+********************************************/
+
+#main {
+  .poster-text {
+    font-size: 1.7em;
+    font-weight: 300;
+    line-height: 1.8em;
+    z-index: 200;
+    color: $grey-txt-d1;
+    mix-blend-mode: multiply;
+  }
+}  
+
+.bg {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  mix-blend-mode: multiply;
+  position: absolute;
+  z-index: 0;
+  left: 0;
+  img {
+    width: 50%; 
+    align-self: center;
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 70px;
+  }
+  display: none;
+}
+
+a.artist-name {
+  color: $grey-txt-d1;
+  padding: 3px 3px 0px 3px;
+  margin-right: 1px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba($primary-color, 0.8);
+  box-shadow: inset 0 -12px 0 rgba($primary-color, 0.8);
+
+  -webkit-transition: box-shadow .20s ease-out;
+  -moz-transition: box-shadow .20s ease-out;
+  -o-transition: box-shadow .20s ease-out;
+  transition: box-shadow .20s ease-out;
+
+  &:hover {
+    border-bottom: 1px solid $primary-color;
+    box-shadow: inset 0 -2px 0 $primary-color;
+    color: $primary-color;
+  }
+}
+
+
+/********************************************
+ARTISTS
+********************************************/
+
+#artists {
+  .artists-list {
+    font-size: 0.8em;
+    margin-bottom: 70px;
+    li {
+      margin-right: 10px;
+    }
+  }
+
+  h4 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+  }
+
+  .one-artist {
+    margin-bottom: 50px;
+  }
+}
+
+
+/********************************************
+EXHIBITION-INFO
+********************************************/
+
+#exhibition-info {
+  font-size: 1.4em;
+  line-height: 1.7em;
+}
+
+.exhibition-intro p {
+  margin-bottom: 20px;
+}
+
+ul.group-info-text {
+  li {
+    display: block !important;
+    list-style-type: square;
+    line-height: 2em;
+    font-size: 1em;
+    padding: 13px 6px 8px 6px;
+    border-radius: $border-radius-base;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    @include sweep-to-right();
+  }
+}
+
+.exhibition-info-detail {
+  .col-sm-4 div:nth-child(1) {
+    margin-bottom: 30px;
+  }
+}
+
+h6.exhibition-info-title {
+  border-bottom: 2px solid $grey-txt-d1;
+  font-weight: 700;
+  display: inline;
+}
+
+p.info-detail {
+  margin-top: 10px;
+  line-height: 1.6em;
+}
+
+.exhibition-intro.col-sm-83 {
+  margin-bottom: 80px;
+}
+
+/********************************************
+FOOTER
+********************************************/
+footer {
+  border-top: 1px solid $primary-color;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  bottom: 0;
+  color: $grey-25;
+  margin-top: 60px;
+
+  h6 {
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  a {
+    line-height: 26px;
+    color: $primary-color;
+    &:hover {
+      color: $primary-color;
+      text-decoration: none;
+    }
+  }
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
+
