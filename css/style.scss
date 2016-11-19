@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-@import url("//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 @import "reset";
 @import "variables";
 @import "grid";
@@ -20,7 +19,7 @@ GENERAL
 ********************************************/
 
 * { 
-  font-family: "Spoqa Han Sans","Source Sans Pro",Apple SD Gothic Neo,Nanum Barun Gothic,Nanum Gothic,"돋움",Dotum,Verdana,Arial,sans-serif; 
+  font-family: "SpoqaHanSans","Source Sans Pro",Apple SD Gothic Neo,Nanum Barun Gothic,Nanum Gothic,"돋움",Dotum,Verdana,Arial,sans-serif; 
   color: $grey-txt-d1;
 }
 
