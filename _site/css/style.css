@@ -4077,5 +4077,10 @@ footer {
     margin-bottom: 2px; }
   #artists h4.artwork-title {
     margin-top: 16px; } }
+@media screen and (max-width: 506px) {
+  ul.nav-menu {
+    float: left; }
+    ul.nav-menu a {
+      padding-left: 0; } }
 
 /*# sourceMappingURL=style.css.map */

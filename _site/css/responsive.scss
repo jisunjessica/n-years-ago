@@ -28,5 +28,10 @@
 }
 
 @media screen and (max-width: 506px) {
-
+  ul.nav-menu {
+    float: left;
+    a {
+      padding-left: 0;
+    }
+  }
 }
