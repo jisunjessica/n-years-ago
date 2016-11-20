@@ -1,8 +1,32 @@
-@media screen and (min-width: 1066px) {
+@media screen and (max-width: 1000px) {
   ul.nav-menu {
-    display: flex;
+    display: inline-flex;
+    text-align: left;
+    float: right;
+    right: 0px;
+    position: static;
+    margin-top: 2px;
+
     li {
-      margin-right: 20px;
+      margin-right: 4px;
     }
   }
+  .col-sm-83 {
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width: 767px) {
+  #artists {
+    h4 {
+      margin-bottom: 2px;
+    }
+    h4.artwork-title {
+      margin-top: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: 506px) {
+  내비바...
 }
