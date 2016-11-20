@@ -17,6 +17,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  div {
+    overflow-x: hidden;
+  }
   #artists {
     h4 {
       margin-bottom: 2px;
@@ -28,6 +31,9 @@
 }
 
 @media screen and (max-width: 506px) {
+  div {
+    overflow-x: hidden;
+  }
   ul.nav-menu {
     float: left;
     a {

@@ -4076,11 +4076,17 @@ footer {
   .col-sm-83 {
     width: 100%; } }
 @media screen and (max-width: 767px) {
+  div {
+    overflow-x: hidden; }
+
   #artists h4 {
     margin-bottom: 2px; }
   #artists h4.artwork-title {
     margin-top: 16px; } }
 @media screen and (max-width: 506px) {
+  div {
+    overflow-x: hidden; }
+
   ul.nav-menu {
     float: left; }
     ul.nav-menu a {
