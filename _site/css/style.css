@@ -3768,6 +3768,9 @@ GENERAL
 .text-bold {
   font-weight: 700; }
 
+.text-right {
+  text-align: right; }
+
 .container {
   max-width: 960px;
   margin-left: auto;
