@@ -17,8 +17,8 @@ $border-radius-base: 3px;
 GENERAL
 ********************************************/
 
-* { 
-  font-family: "SpoqaHanSans","Source Sans Pro",Apple SD Gothic Neo,Nanum Barun Gothic,Nanum Gothic,"돋움",Dotum,Verdana,Arial,sans-serif; 
+* {
+  font-family: "SpoqaHanSans","Source Sans Pro",Apple SD Gothic Neo,Nanum Barun Gothic,Nanum Gothic,"돋움",Dotum,Verdana,Arial,sans-serif;
   color: $grey-txt-d1;
 }
 
@@ -31,7 +31,7 @@ GENERAL
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1200px; //960px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 5%;
@@ -41,7 +41,7 @@ a {
   color: $grey-txt-d1;
   transition: 0.2s ease;
   &:hover {
-    color: $grey-txt-d1;    
+    color: $grey-txt-d1;
   }
 }
 
@@ -72,8 +72,8 @@ section {
 
 .section-title {
   font-size: 20px;
-  font-weight: 700; 
-  margin-bottom: 50px; 
+  font-weight: 700;
+  margin-bottom: 50px;
 }
 
 .hr {
@@ -114,7 +114,7 @@ nav {
 
   h1, .text-bold {
     margin-bottom: 20px;
-    
+
   }
 
   .site-title {
@@ -136,7 +136,7 @@ ul.nav-menu {
   position: fixed;
   top: 34px;
   right: 154px;
-  
+
   li {
     padding: 0px 4px;
     margin-bottom: 12px;
@@ -159,7 +159,7 @@ ul.nav-menu {
       box-shadow: inset 0 -12px 0 rgba($primary-color, 0.8);
     }
   }
-}  
+}
 
 /********************************************
 MAIN
@@ -175,7 +175,46 @@ MAIN
     mix-blend-mode: multiply;
     float: left;
   }
-}  
+  a.artist-name {
+    color: $grey-txt-d1;
+    padding: 3px;
+    margin-right: 1px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba($primary-color, 0.8);
+    box-shadow: inset 0 -12px 0 rgba($primary-color, 0.8);
+
+    -webkit-transition: box-shadow .20s ease-out;
+    -moz-transition: box-shadow .20s ease-out;
+    -o-transition: box-shadow .20s ease-out;
+    transition: box-shadow .20s ease-out;
+
+    position:relative;
+
+    &:hover {
+      border-bottom: 1px solid $primary-color;
+      box-shadow: inset 0 -2px 0 $primary-color;
+      color: $primary-color;
+    }
+  }
+}
+
+.thumnail {
+  display: none;
+}
+
+.container { position: relative; } //gogo
+
+.thumnail.hover {
+  display: block;
+  width: 10%;
+  z-index: -1000;
+  mix-blend-mode: multiply;
+  position: fixed; //gogo
+  top: 20px;
+  left: 20px;
+}
+
+
 
 .bg {
   display: -webkit-box;
@@ -191,58 +230,13 @@ MAIN
   z-index: 0;
   left: 0;
   img {
-    width: 50%; 
+    width: 50%;
     align-self: center;
     text-align: center;
     opacity: 0.5;
     margin-top: 70px;
   }
   display: none;
-}
-
-a.artist-name {
-  color: $grey-txt-d1;
-  padding: 3px;
-  margin-right: 1px;
-  text-decoration: none;
-  border-bottom: 1px solid rgba($primary-color, 0.8);
-  box-shadow: inset 0 -12px 0 rgba($primary-color, 0.8);
-
-  -webkit-transition: box-shadow .20s ease-out;
-  -moz-transition: box-shadow .20s ease-out;
-  -o-transition: box-shadow .20s ease-out;
-  transition: box-shadow .20s ease-out;
-
-  position:relative;
-
-  &:hover {
-    border-bottom: 1px solid $primary-color;
-    box-shadow: inset 0 -2px 0 $primary-color;
-    color: $primary-color;
-  }
-}
-
-.artist-name img { 
-  border: 0;
-  vertical-align:bottom;
-  height: 300px;
-  mix-blend-mode: multiply;
-}
-.artist-name:hover {
-  border:0; /* IE6 needs this to show large image */
-  z-index: 100;
-}
-
-.artist-name span { 
-  position:absolute;
-  visibility:hidden;
-  z-index: -100;  
-}
-
-.artist-name:hover span { 
-  visibility: visible;
-  top: 40px; left: 40px;
-  z-index: -100;
 }
 
 

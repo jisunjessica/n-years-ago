@@ -1,3 +1,13 @@
+@media screen and (min-width: 1500px) {
+  ul.nav-menu {
+    position: inherit;
+  }
+  .col-sm-83 {
+    width: 100%;
+  }
+
+}
+
 @media screen and (max-width: 1000px) {
   ul.nav-menu {
     display: inline-flex;
@@ -13,7 +23,7 @@
   }
   .col-sm-83 {
     width: 100%;
-  } 
+  }
 }
 
 @media screen and (max-width: 767px) {
