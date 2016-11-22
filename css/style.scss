@@ -172,7 +172,6 @@ MAIN
     line-height: 1.8em;
     z-index: 200;
     color: $grey-txt-d1;
-    mix-blend-mode: multiply;
     float: left;
   }
   a.artist-name {
@@ -206,12 +205,15 @@ MAIN
 
 .thumnail.hover {
   display: block;
-  width: 10%;
+  width: 500px;
   z-index: -1000;
   mix-blend-mode: multiply;
-  position: fixed; //gogo
-  top: 20px;
-  left: 20px;
+  position: absolute; //gogo
+  top: 80px;
+  left: 0px;
+
+  transition: all 1000ms cubic-bezier(.19,1,.22,1) 0ms;
+  -webkit-transition: all 1000ms cubic-bezier(.19,1,.22,1) 0ms;
 }
 
 
@@ -225,7 +227,6 @@ MAIN
 
   justify-content: center;
   align-items: center;
-  mix-blend-mode: multiply;
   position: absolute;
   z-index: 0;
   left: 0;

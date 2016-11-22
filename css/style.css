@@ -3882,7 +3882,6 @@ MAIN
   line-height: 1.8em;
   z-index: 200;
   color: #6f6c73;
-  mix-blend-mode: multiply;
   float: left; }
 #main a.artist-name {
   color: #6f6c73;
@@ -3909,12 +3908,14 @@ MAIN
 
 .thumnail.hover {
   display: block;
-  width: 10%;
+  width: 500px;
   z-index: -1000;
   mix-blend-mode: multiply;
-  position: fixed;
-  top: 20px;
-  left: 20px; }
+  position: absolute;
+  top: 80px;
+  left: 0px;
+  transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;
+  -webkit-transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
 
 .bg {
   display: -webkit-box;
@@ -3924,7 +3925,6 @@ MAIN
   display: flex;
   justify-content: center;
   align-items: center;
-  mix-blend-mode: multiply;
   position: absolute;
   z-index: 0;
   left: 0;
@@ -4056,7 +4056,7 @@ footer {
 
 @media screen and (min-width: 1500px) {
   ul.nav-menu {
-    position: inherit; }
+    position: static; }
 
   .col-sm-83 {
     width: 100%; } }
