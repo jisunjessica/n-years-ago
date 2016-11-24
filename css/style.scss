@@ -173,6 +173,7 @@ MAIN
     z-index: 200;
     color: $grey-txt-d1;
     float: left;
+    mix-blend-mode: multiply;
   }
   a.artist-name {
     color: $grey-txt-d1;
@@ -208,8 +209,8 @@ MAIN
   width: 500px;
   z-index: -1000;
   mix-blend-mode: multiply;
-  position: absolute; //gogo
-  top: 80px;
+  position: fixed; //gogo
+  top: 96px;
   left: 0px;
 
   transition: all 1000ms cubic-bezier(.19,1,.22,1) 0ms;

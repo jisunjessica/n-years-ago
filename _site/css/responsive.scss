@@ -38,6 +38,12 @@
       margin-top: 16px;
     }
   }
+
+  .thumnail.hover {
+    top: 180px;
+    margin: auto 0;
+    width: 400px;
+  }
 }
 
 @media screen and (max-width: 506px) {
@@ -49,5 +55,10 @@
     a {
       padding-left: 0;
     }
+  }
+  .thumnail.hover {
+    top: 180px;
+    margin: auto 0;
+    width: 300px;
   }
 }

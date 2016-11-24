@@ -3882,7 +3882,8 @@ MAIN
   line-height: 1.8em;
   z-index: 200;
   color: #6f6c73;
-  float: left; }
+  float: left;
+  mix-blend-mode: multiply; }
 #main a.artist-name {
   color: #6f6c73;
   padding: 3px;
@@ -3911,8 +3912,8 @@ MAIN
   width: 500px;
   z-index: -1000;
   mix-blend-mode: multiply;
-  position: absolute;
-  top: 80px;
+  position: fixed;
+  top: 96px;
   left: 0px;
   transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;
   -webkit-transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
@@ -4080,7 +4081,12 @@ footer {
   #artists h4 {
     margin-bottom: 2px; }
   #artists h4.artwork-title {
-    margin-top: 16px; } }
+    margin-top: 16px; }
+
+  .thumnail.hover {
+    top: 180px;
+    margin: auto 0;
+    width: 400px; } }
 @media screen and (max-width: 506px) {
   div {
     overflow-x: hidden; }
@@ -4088,6 +4094,11 @@ footer {
   ul.nav-menu {
     float: left; }
     ul.nav-menu a {
-      padding-left: 0; } }
+      padding-left: 0; }
+
+  .thumnail.hover {
+    top: 180px;
+    margin: auto 0;
+    width: 300px; } }
 
 /*# sourceMappingURL=style.css.map */
