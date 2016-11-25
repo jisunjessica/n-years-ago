@@ -193,7 +193,6 @@ MAIN
     &:hover {
       border-bottom: 1px solid $primary-color;
       box-shadow: inset 0 -2px 0 $primary-color;
-      color: $primary-color;
     }
   }
 }
@@ -202,16 +201,16 @@ MAIN
   display: none;
 }
 
-.container { position: relative; } //gogo
+ //gogo
 
 .thumnail.hover {
   display: block;
   width: 500px;
   z-index: -1000;
   mix-blend-mode: multiply;
-  position: fixed; //gogo
-  top: 96px;
-  left: 0px;
+  position: absolute; //gogo
+  top: 100px;
+  left: 25%;
 
   transition: all 1000ms cubic-bezier(.19,1,.22,1) 0ms;
   -webkit-transition: all 1000ms cubic-bezier(.19,1,.22,1) 0ms;
