@@ -203,7 +203,7 @@ MAIN
 
 .thumnail.hover {
   display: block;
-  width: 40%;
+  width: 480px;
   height: auto; //480px
   z-index: -1000;
   mix-blend-mode: multiply;
@@ -217,30 +217,6 @@ MAIN
   -moz-transition: all .20s ease-out;
   -o-transition: all .20s ease-out;
   transition: all .20s ease-out;
-}
-
-
-
-.bg {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  z-index: 0;
-  left: 0;
-  img {
-    width: 50%;
-    align-self: center;
-    text-align: center;
-    opacity: 0.5;
-    margin-top: 70px;
-  }
-  display: none;
 }
 
 

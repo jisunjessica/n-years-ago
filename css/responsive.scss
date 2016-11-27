@@ -26,9 +26,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 900px) {
-    .thumnail.hover {
-    //width: 400px;
-    left: 25%;
+  .thumnail.hover {
+    width: 400px;
+    height: 400px;
+    //left: 25%;
   }
 }
 
@@ -45,30 +46,34 @@
     }
   }
   .thumnail.hover {
-    //width: 400px;
+    width: 400px;
+    height: 400px;
     //top: 180px;
-    left: 25%;
+    //left: 25%;
   }
 }
 
 @media screen and (max-width: 700px) {
   .thumnail.hover {
-    //width: 400px;
-    left: 20%;
+    width: 400px;
+    height: 400px;
+    //left: 20%;
   }
 }
 
 @media screen and (max-width: 600px) {
   .thumnail.hover {
-    //width: 400px;
-    left: 15%;
+    width: 400px;
+    height: 400px;
+    //left: 15%;
   }
 }
 
 @media screen and (max-width: 547px) {
   .thumnail.hover {
-    //width: 300px;
-    left: 15%;
+    width: 300px;
+    height: 300px;
+    //left: 15%;
   }
 }
 
@@ -84,8 +89,9 @@
   }
 
   .thumnail.hover {
-    //width: 300px;
+    width: 300px;
+    height: 300px;
     top: 180px;
-    left: 13%;
+    //left: 13%;
   }
 }
