@@ -203,17 +203,19 @@ MAIN
 
 .thumnail.hover {
   display: block;
-  width: 500px;
+  width: 480px;
   z-index: -1000;
   mix-blend-mode: multiply;
-  position: fixed; //gogo
-  top: 25%;
+  position: fixed;
+  top: 20%;
   left: 25%;
   margin: 0 auto;
   text-align: center;
 
-  transition: all 1000ms cubic-bezier(.19,1,.22,1) 0ms;
-  -webkit-transition: all 1000ms cubic-bezier(.19,1,.22,1) 0ms;
+  -webkit-transition: all .20s ease-out;
+  -moz-transition: all .20s ease-out;
+  -o-transition: all .20s ease-out;
+  transition: all .20s ease-out;
 }
 
 
