@@ -203,7 +203,8 @@ MAIN
 
 .thumnail.hover {
   display: block;
-  width: 480px;
+  width: 40%;
+  height: auto; //480px
   z-index: -1000;
   mix-blend-mode: multiply;
   position: fixed;
@@ -305,14 +306,13 @@ ul.group-info-text {
     display: block !important;
     line-height: 2em;
     font-size: 1em;
-    font-weight: 500;
     padding: 13px 6px 8px 6px;
     border-radius: $border-radius-base;
     margin-top: 4px;
     margin-bottom: 4px;
     @include sweep-to-right();
     &:hover {
-      color: $primary-color;
+      color: $white;
     }
   }
 }
