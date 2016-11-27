@@ -201,16 +201,16 @@ MAIN
   display: none;
 }
 
- //gogo
-
 .thumnail.hover {
   display: block;
   width: 500px;
   z-index: -1000;
   mix-blend-mode: multiply;
-  position: absolute; //gogo
-  top: 100px;
+  position: fixed; //gogo
+  top: 25%;
   left: 25%;
+  margin: 0 auto;
+  text-align: center;
 
   transition: all 1000ms cubic-bezier(.19,1,.22,1) 0ms;
   -webkit-transition: all 1000ms cubic-bezier(.19,1,.22,1) 0ms;
@@ -261,12 +261,12 @@ ARTISTS
   }
 
   .one-artist {
-    margin-bottom: 50px;
+    padding-top: 50px;
   }
 }
 
 
-a.artist-site {
+a.link {
   text-decoration: none;
   padding: 0;
 
@@ -276,8 +276,8 @@ a.artist-site {
   transition: box-shadow .20s ease-out;
 
   &:hover {
-    border-bottom: 2px solid rgba($primary-color, 0.4);
-    box-shadow: inset 0 -8px 0 rgba($primary-color, 0.4);
+    border-bottom: 2px solid rgba($primary-color, 0.5);
+    box-shadow: inset 0 -8px 0 rgba($primary-color, 0.5);
   }
 }
 
@@ -301,14 +301,17 @@ EXHIBITION-INFO
 ul.group-info-text {
   li {
     display: block !important;
-    list-style-type: square;
     line-height: 2em;
     font-size: 1em;
+    font-weight: 500;
     padding: 13px 6px 8px 6px;
     border-radius: $border-radius-base;
     margin-top: 4px;
     margin-bottom: 4px;
     @include sweep-to-right();
+    &:hover {
+      color: $primary-color;
+    }
   }
 }
 
@@ -352,15 +355,6 @@ footer {
   h6 {
     font-weight: 700;
     margin-bottom: 12px;
-  }
-
-  a {
-    line-height: 26px;
-    color: $primary-color;
-    &:hover {
-      color: $primary-color;
-      text-decoration: none;
-    }
   }
 }
 

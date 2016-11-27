@@ -1020,7 +1020,7 @@ table {
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color; }
   .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
-    background-color: rgba(191, 161, 227, 0.1);
+    background-color: rgba(191, 161, 227, 0.25);
     color: white; }
 
 /* Back Pulse */
@@ -1052,7 +1052,7 @@ table {
     animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
-    background-color: rgba(191, 161, 227, 0.1);
+    background-color: rgba(191, 161, 227, 0.25);
     background-color: #2098d1;
     color: white; }
 
@@ -1076,7 +1076,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -1111,7 +1111,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 100% 50%;
@@ -1148,7 +1148,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 0;
@@ -1185,7 +1185,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -1222,7 +1222,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -1261,7 +1261,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 100% 50%;
@@ -1300,7 +1300,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 0;
@@ -1339,7 +1339,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50% 100%;
@@ -1380,7 +1380,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     border-radius: 100%;
     -webkit-transform: scale(0);
     transform: scale(0);
@@ -1405,7 +1405,7 @@ table {
   box-shadow: 0 0 1px transparent;
   position: relative;
   overflow: hidden;
-  background: rgba(191, 161, 227, 0.1);
+  background: rgba(191, 161, 227, 0.25);
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.4s;
@@ -1442,7 +1442,7 @@ table {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
   position: relative;
-  background: rgba(191, 161, 227, 0.1);
+  background: rgba(191, 161, 227, 0.25);
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.4s;
@@ -1491,7 +1491,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition-property: transform;
@@ -1514,7 +1514,7 @@ table {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
   position: relative;
-  background: rgba(191, 161, 227, 0.1);
+  background: rgba(191, 161, 227, 0.25);
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.4s;
@@ -1565,7 +1565,7 @@ table {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 50%;
@@ -1590,7 +1590,7 @@ table {
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px transparent;
   position: relative;
-  background: rgba(191, 161, 227, 0.1);
+  background: rgba(191, 161, 227, 0.25);
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.4s;
@@ -1641,7 +1641,7 @@ table {
     bottom: 0;
     left: 0;
     right: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleY(0);
     transform: scaleY(0);
     -webkit-transform-origin: 50%;
@@ -1673,7 +1673,7 @@ table {
   box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
   /* Hack to improve aliasing on mobile/tablet devices */ }
   .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
-    box-shadow: inset 0 0 0 4px rgba(191, 161, 227, 0.1), 0 0 1px transparent;
+    box-shadow: inset 0 0 0 4px rgba(191, 161, 227, 0.25), 0 0 1px transparent;
     /* Hack to improve aliasing on mobile/tablet devices */ }
 
 /* Hollow */
@@ -1874,7 +1874,7 @@ table {
     left: 0;
     right: 100%;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -1901,7 +1901,7 @@ table {
     left: 50%;
     right: 50%;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -1929,7 +1929,7 @@ table {
     left: 100%;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     height: 4px;
     -webkit-transition-property: left;
     transition-property: left;
@@ -1956,7 +1956,7 @@ table {
     left: 0;
     right: 100%;
     top: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     height: 4px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -1983,7 +1983,7 @@ table {
     left: 50%;
     right: 50%;
     top: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     height: 4px;
     -webkit-transition-property: left, right;
     transition-property: left, right;
@@ -2011,7 +2011,7 @@ table {
     left: 100%;
     right: 0;
     top: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     height: 4px;
     -webkit-transition-property: left;
     transition-property: left;
@@ -2039,7 +2039,7 @@ table {
     right: 0;
     top: 0;
     bottom: 0;
-    border-color: rgba(191, 161, 227, 0.1);
+    border-color: rgba(191, 161, 227, 0.25);
     border-style: solid;
     border-width: 0;
     -webkit-transition-property: border-width;
@@ -2069,7 +2069,7 @@ table {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     height: 4px;
     -webkit-transform: translateY(4px);
     transform: translateY(4px);
@@ -2099,7 +2099,7 @@ table {
     left: 0;
     right: 0;
     top: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     height: 4px;
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
@@ -3908,9 +3908,11 @@ MAIN
   width: 500px;
   z-index: -1000;
   mix-blend-mode: multiply;
-  position: absolute;
-  top: 100px;
+  position: fixed;
+  top: 25%;
   left: 25%;
+  margin: 0 auto;
+  text-align: center;
   transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms;
   -webkit-transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1) 0ms; }
 
@@ -3946,18 +3948,18 @@ ARTISTS
   margin-bottom: 20px;
   line-height: 1.6em; }
 #artists .one-artist {
-  margin-bottom: 50px; }
+  padding-top: 50px; }
 
-a.artist-site {
+a.link {
   text-decoration: none;
   padding: 0;
   -webkit-transition: box-shadow .20s ease-out;
   -moz-transition: box-shadow .20s ease-out;
   -o-transition: box-shadow .20s ease-out;
   transition: box-shadow .20s ease-out; }
-  a.artist-site:hover {
-    border-bottom: 2px solid rgba(191, 161, 227, 0.4);
-    box-shadow: inset 0 -8px 0 rgba(191, 161, 227, 0.4); }
+  a.link:hover {
+    border-bottom: 2px solid rgba(191, 161, 227, 0.5);
+    box-shadow: inset 0 -8px 0 rgba(191, 161, 227, 0.5); }
 
 .artwork-title {
   color: #BFA1E3; }
@@ -3974,9 +3976,9 @@ EXHIBITION-INFO
 
 ul.group-info-text li {
   display: block !important;
-  list-style-type: square;
   line-height: 2em;
   font-size: 1em;
+  font-weight: 500;
   padding: 13px 6px 8px 6px;
   border-radius: 3px;
   margin-top: 4px;
@@ -3999,7 +4001,7 @@ ul.group-info-text li {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(191, 161, 227, 0.1);
+    background: rgba(191, 161, 227, 0.25);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -4013,6 +4015,8 @@ ul.group-info-text li {
   ul.group-info-text li:hover:before, ul.group-info-text li:focus:before, ul.group-info-text li:active:before {
     -webkit-transform: scaleX(1);
     transform: scaleX(1); }
+  ul.group-info-text li:hover {
+    color: #BFA1E3; }
 
 .exhibition-info-detail .col-sm-4 div {
   margin-bottom: 30px; }
@@ -4047,12 +4051,6 @@ footer {
   footer h6 {
     font-weight: 700;
     margin-bottom: 12px; }
-  footer a {
-    line-height: 26px;
-    color: #BFA1E3; }
-    footer a:hover {
-      color: #BFA1E3;
-      text-decoration: none; }
 
 @media screen and (min-width: 1500px) {
   ul.nav-menu {
@@ -4073,6 +4071,10 @@ footer {
 
   .col-sm-83 {
     width: 100%; } }
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .thumnail.hover {
+    width: 400px;
+    left: 25%; } }
 @media screen and (max-width: 767px) {
   div {
     overflow-x: hidden; }
@@ -4083,8 +4085,20 @@ footer {
     margin-top: 16px; }
 
   .thumnail.hover {
-    top: 180px;
-    width: 400px; } }
+    width: 400px;
+    left: 25%; } }
+@media screen and (max-width: 700px) {
+  .thumnail.hover {
+    width: 400px;
+    left: 20%; } }
+@media screen and (max-width: 600px) {
+  .thumnail.hover {
+    width: 400px;
+    left: 15%; } }
+@media screen and (max-width: 547px) {
+  .thumnail.hover {
+    width: 300px;
+    left: 15%; } }
 @media screen and (max-width: 506px) {
   div {
     overflow-x: hidden; }
@@ -4095,7 +4109,7 @@ footer {
       padding-left: 0; }
 
   .thumnail.hover {
-    top: 180px;
-    width: 300px; } }
+    width: 300px;
+    left: 13%; } }
 
 /*# sourceMappingURL=style.css.map */
