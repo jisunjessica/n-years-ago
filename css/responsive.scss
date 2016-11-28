@@ -1,3 +1,12 @@
+@media screen and (max-width: 2600px) {
+  .thumbnail.hover {
+    left: 50%;
+  }
+  .col-sm-83 {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 1500px) {
   ul.nav-menu {
     position: static;
@@ -7,7 +16,19 @@
   }
 }
 
+@media screen and (min-width: 1200px) {
+  ul.nav-menu {
+    position: static;
+  }
+  .col-sm-83 {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1000px) {
+  .thumbnail.hover {
+    left: 50%;
+  }
   ul.nav-menu {
     display: inline-flex;
     text-align: left;
@@ -26,7 +47,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 900px) {
-  .thumnail.hover {
+  .thumbnail.hover {
     width: 400px;
     height: 400px;
     //left: 25%;
@@ -45,35 +66,30 @@
       margin-top: 16px;
     }
   }
-  .thumnail.hover {
+  .thumbnail.hover {
     width: 400px;
     height: 400px;
-    //top: 180px;
-    //left: 25%;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .thumnail.hover {
+  .thumbnail.hover {
     width: 400px;
     height: 400px;
-    //left: 20%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .thumnail.hover {
+  .thumbnail.hover {
     width: 400px;
     height: 400px;
-    //left: 15%;
   }
 }
 
 @media screen and (max-width: 547px) {
-  .thumnail.hover {
+  .thumbnail.hover {
     width: 300px;
     height: 300px;
-    //left: 15%;
   }
 }
 
@@ -88,10 +104,9 @@
     }
   }
 
-  .thumnail.hover {
+  .thumbnail.hover {
     width: 300px;
     height: 300px;
-    top: 180px;
-    //left: 13%;
+    top: 50%;
   }
 }

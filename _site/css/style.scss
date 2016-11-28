@@ -82,6 +82,10 @@ section {
   background-color: $primary-color;
 }
 
+.col-sm-83 {
+  width: 83.3%;
+}
+
 
 /********************************************
 NAVIGATION
@@ -167,6 +171,7 @@ MAIN
 
 #main {
   .poster-text {
+    position: relative;
     font-size: 1.7em;
     font-weight: 300;
     line-height: 1.8em;
@@ -197,26 +202,28 @@ MAIN
   }
 }
 
-.thumnail {
+.thumbnail {
   display: none;
 }
 
-.thumnail.hover {
+.thumbnail.hover {
   display: block;
   width: 480px;
   height: auto; //480px
   z-index: -1000;
   mix-blend-mode: multiply;
   position: fixed;
-  top: 20%;
-  left: 25%;
+  top: 50%;
+  left: 46%;
   margin: 0 auto;
   text-align: center;
+  border: 0;
 
   -webkit-transition: all .20s ease-out;
   -moz-transition: all .20s ease-out;
   -o-transition: all .20s ease-out;
   transition: all .20s ease-out;
+  transform: translate(-50%, -50%);
 }
 
 
