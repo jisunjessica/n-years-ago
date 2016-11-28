@@ -30,6 +30,10 @@ GENERAL
   text-align: right;
 }
 
+.text-primary {
+  color: $primary-color;
+}
+
 .container {
   max-width: 1200px; //960px;
   margin-left: auto;
@@ -279,6 +283,26 @@ EXHIBITION-INFO
 #exhibition-info {
   font-size: 1.4em;
   line-height: 1.7em;
+  a.apply-talk {
+    color: $grey-txt-d1;
+    padding: 3px;
+    margin-right: 1px;
+    text-decoration: none;
+    border-bottom: 1px solid rgba($primary-color, 0.8);
+    box-shadow: inset 0 -12px 0 rgba($primary-color, 0.8);
+
+    -webkit-transition: box-shadow .20s ease-out;
+    -moz-transition: box-shadow .20s ease-out;
+    -o-transition: box-shadow .20s ease-out;
+    transition: box-shadow .20s ease-out;
+
+    position:relative;
+
+    &:hover {
+      border-bottom: 1px solid $primary-color;
+      box-shadow: inset 0 -2px 0 $primary-color;
+    }
+  }
 }
 
 .exhibition-intro p {
