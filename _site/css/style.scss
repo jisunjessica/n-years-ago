@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 @import "reset";
 @import "variables";
 @import "grid";
@@ -18,7 +21,7 @@ GENERAL
 ********************************************/
 
 * {
-  font-family: "SpoqaHanSans","Source Sans Pro",Apple SD Gothic Neo,Nanum Barun Gothic,NanumGothic,"돋움",Dotum,Verdana,Arial,sans-serif;
+  font-family: spoqahansans, Lato, "Noto Sans KR", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: $grey-txt-d1;
 }
 
