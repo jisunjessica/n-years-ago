@@ -4119,5 +4119,30 @@ footer {
     width: 300px;
     height: 300px;
     top: 50%; } }
+section.test {
+  background-image: url("../img/1.jpg");
+  padding-top: 100px;
+  padding-bottom: 100px; }
+
+.text-js {
+  opacity: 0; }
+
+.cursor {
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  /* Change colour of Cursor Here */
+  background-color: white;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate; }
+
+@keyframes flash {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
 
 /*# sourceMappingURL=style.css.map */
