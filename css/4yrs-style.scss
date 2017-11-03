@@ -8,10 +8,10 @@
 @import "grid";
 @import "hover";
 
-$primary-color: #712bce;
-$poster-txt: #712bce;
+$primary-color: #BFA1E3;
+$poster-txt: #6f6c73;
 $grey-25: #d0d0d0;
-$grey-txt: #712bce;
+$grey-txt: #9d9d9c;
 $grey-txt-d1: $poster-txt;
 $white: #fff;
 $border-radius-base: 3px;
@@ -37,7 +37,7 @@ GENERAL
 }
 
 .container {
-  max-width: 100px; //1200px, 960px;
+  max-width: 1200px; //960px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 5%;
