@@ -8,12 +8,12 @@
 @import "grid";
 @import "hover";
 
-$primary-color: #712bce;
-$poster-txt: #712bce;
+$white: #fff;
+$primary-color: #5B6584;
+$poster-txt: $white;
 $grey-25: #d0d0d0;
 $grey-txt: #712bce;
 $grey-txt-d1: $poster-txt;
-$white: #fff;
 $border-radius-base: 3px;
 
 /********************************************
@@ -21,7 +21,7 @@ GENERAL
 ********************************************/
 
 * {
-  color: $grey-txt-d1;
+  color: $white;
 }
 
 .text-bold {
@@ -37,10 +37,10 @@ GENERAL
 }
 
 .container {
-  max-width: 100px; //1200px, 960px;
+  max-width: 740px; //960px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 5%;
+  padding: 0;
 }
 
 a {
@@ -69,11 +69,12 @@ ol li, ul li {
 }
 
 section {
+  background-color: $primary-color;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 40px;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .section-title {
@@ -105,13 +106,7 @@ nav {
   position: fixed;
   display: inline-block;
   width: 100%;
-
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+10,ffffff+33,ffffff+33,ffffff+50&1+10,0.5+33,0+50 */
-  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 10%, rgba(255,255,255,0.5) 33%, rgba(255,255,255,0) 50%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 10%,rgba(255,255,255,0.5) 33%,rgba(255,255,255,0) 50%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(255,255,255,1) 10%,rgba(255,255,255,0.5) 33%,rgba(255,255,255,0) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
-
+  background-color: transparent;
 
 
   #logo {
@@ -119,7 +114,7 @@ nav {
     color: $grey-txt-d1;
 
     &:hover {
-      color: $primary-color;
+      border-bottom: 1px solid $white;
     }
   }
 
@@ -140,13 +135,11 @@ nav {
 }
 
 ul.nav-menu {
-  display: inline;
+  display: inline-flex;
   float: right;
   text-align: right;
   font-size: 22px;
   position: fixed;
-  top: 34px;
-  right: 154px;
 
   li {
     padding: 0px 4px;
@@ -179,12 +172,11 @@ MAIN
 #main {
   .poster-text {
     position: relative;
-    font-size: 1.7em;
+    font-size: 1.4em;
     line-height: 1.8em;
     z-index: 200;
     color: $grey-txt-d1;
     float: left;
-    mix-blend-mode: multiply;
   }
   a.artist-name {
     color: $grey-txt-d1;
@@ -202,6 +194,7 @@ MAIN
     position:relative;
 
     &:hover {
+      mix-blend-mode: multiply;
       border-bottom: 1px solid $primary-color;
       box-shadow: inset 0 -2px 0 $primary-color;
     }
@@ -345,11 +338,6 @@ p.info-detail {
 
 .exhibition-intro.col-sm-83 {
   margin-bottom: 80px;
-}
-#map {
-  width: 100%;
-  height: 400px;
-  background-color: grey;
 }
 
 /********************************************

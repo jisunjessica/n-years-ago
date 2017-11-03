@@ -1,3 +1,7 @@
 _site/
+_site/*.xml
+_site/*.html
+_site/*.css
+_site/*.css.map
 *.css.map
 .sass-cache/

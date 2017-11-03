@@ -68,7 +68,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -83,7 +83,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -112,7 +112,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
     -webkit-animation-name: hvr-pulse;
     animation-name: hvr-pulse;
@@ -137,7 +137,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-pulse-grow:hover, .hvr-pulse-grow:focus, .hvr-pulse-grow:active {
     -webkit-animation-name: hvr-pulse-grow;
     animation-name: hvr-pulse-grow;
@@ -164,7 +164,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-pulse-shrink:hover, .hvr-pulse-shrink:focus, .hvr-pulse-shrink:active {
     -webkit-animation-name: hvr-pulse-shrink;
     animation-name: hvr-pulse-shrink;
@@ -197,7 +197,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-push:hover, .hvr-push:focus, .hvr-push:active {
     -webkit-animation-name: hvr-push;
     animation-name: hvr-push;
@@ -222,7 +222,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-pop:hover, .hvr-pop:focus, .hvr-pop:active {
     -webkit-animation-name: hvr-pop;
     animation-name: hvr-pop;
@@ -239,7 +239,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s; }
   .hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
@@ -254,7 +254,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s; }
   .hvr-bounce-out:hover, .hvr-bounce-out:focus, .hvr-bounce-out:active {
@@ -269,7 +269,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -284,7 +284,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -299,7 +299,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -316,7 +316,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -361,7 +361,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
     -webkit-animation-name: hvr-bob-float, hvr-bob;
     animation-name: hvr-bob-float, hvr-bob;
@@ -412,7 +412,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
     -webkit-animation-name: hvr-hang-sink, hvr-hang;
     animation-name: hvr-hang-sink, hvr-hang;
@@ -435,7 +435,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -450,7 +450,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -467,7 +467,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -522,7 +522,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
     -webkit-animation-name: hvr-wobble-vertical;
     animation-name: hvr-wobble-vertical;
@@ -577,7 +577,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
     -webkit-animation-name: hvr-wobble-horizontal;
     animation-name: hvr-wobble-horizontal;
@@ -632,7 +632,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-wobble-to-bottom-right:hover, .hvr-wobble-to-bottom-right:focus, .hvr-wobble-to-bottom-right:active {
     -webkit-animation-name: hvr-wobble-to-bottom-right;
     animation-name: hvr-wobble-to-bottom-right;
@@ -687,7 +687,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-wobble-to-top-right:hover, .hvr-wobble-to-top-right:focus, .hvr-wobble-to-top-right:active {
     -webkit-animation-name: hvr-wobble-to-top-right;
     animation-name: hvr-wobble-to-top-right;
@@ -742,7 +742,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transform-origin: 0 100%;
   transform-origin: 0 100%; }
   .hvr-wobble-top:hover, .hvr-wobble-top:focus, .hvr-wobble-top:active {
@@ -799,7 +799,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transform-origin: 100% 0;
   transform-origin: 100% 0; }
   .hvr-wobble-bottom:hover, .hvr-wobble-bottom:focus, .hvr-wobble-bottom:active {
@@ -856,7 +856,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-wobble-skew:hover, .hvr-wobble-skew:focus, .hvr-wobble-skew:active {
     -webkit-animation-name: hvr-wobble-skew;
     animation-name: hvr-wobble-skew;
@@ -887,7 +887,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
     -webkit-animation-name: hvr-buzz;
     animation-name: hvr-buzz;
@@ -966,7 +966,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent; }
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0); }
   .hvr-buzz-out:hover, .hvr-buzz-out:focus, .hvr-buzz-out:active {
     -webkit-animation-name: hvr-buzz-out;
     animation-name: hvr-buzz-out;
@@ -983,7 +983,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -998,7 +998,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: transform;
@@ -1014,7 +1014,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   overflow: hidden;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -1036,7 +1036,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   overflow: hidden;
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
@@ -1063,7 +1063,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
@@ -1098,7 +1098,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
@@ -1135,7 +1135,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
@@ -1172,7 +1172,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
@@ -1209,7 +1209,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
@@ -1248,7 +1248,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
@@ -1287,7 +1287,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
@@ -1326,7 +1326,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
@@ -1365,7 +1365,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
   background: #e1e1e1;
@@ -1403,7 +1403,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
   background: #bfa1e3;
@@ -1441,7 +1441,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #bfa1e3;
   -webkit-transition-property: color;
@@ -1477,7 +1477,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #e1e1e1;
   -webkit-transition-property: color;
@@ -1513,7 +1513,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #bfa1e3;
   -webkit-transition-property: color;
@@ -1551,7 +1551,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #e1e1e1;
   -webkit-transition-property: color;
@@ -1589,7 +1589,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #bfa1e3;
   -webkit-transition-property: color;
@@ -1627,7 +1627,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   background: #e1e1e1;
   -webkit-transition-property: color;
@@ -1666,15 +1666,15 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */ }
   .hvr-border-fade:hover, .hvr-border-fade:focus, .hvr-border-fade:active {
-    box-shadow: inset 0 0 0 4px #bfa1e3, 0 0 1px transparent;
+    box-shadow: inset 0 0 0 4px #bfa1e3, 0 0 1px rgba(0, 0, 0, 0);
     /* Hack to improve aliasing on mobile/tablet devices */ }
 
 /* Hollow */
@@ -1683,12 +1683,12 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: background;
   transition-property: background;
-  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px transparent;
+  box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */ }
   .hvr-hollow:hover, .hvr-hollow:focus, .hvr-hollow:active {
     background: none; }
@@ -1699,7 +1699,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-trim:before {
     content: '';
@@ -1737,7 +1737,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-ripple-out:before {
     content: '';
@@ -1773,7 +1773,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-ripple-in:before {
     content: '';
@@ -1796,7 +1796,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-outline-out:before {
     content: '';
@@ -1822,7 +1822,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-outline-in:before {
     pointer-events: none;
@@ -1851,7 +1851,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: border-radius;
@@ -1865,7 +1865,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden; }
   .hvr-underline-from-left:before {
@@ -1892,7 +1892,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden; }
   .hvr-underline-from-center:before {
@@ -1920,7 +1920,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden; }
   .hvr-underline-from-right:before {
@@ -1947,7 +1947,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden; }
   .hvr-overline-from-left:before {
@@ -1974,7 +1974,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden; }
   .hvr-overline-from-center:before {
@@ -2002,7 +2002,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden; }
   .hvr-overline-from-right:before {
@@ -2029,7 +2029,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden; }
   .hvr-reveal:before {
@@ -2060,7 +2060,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden; }
   .hvr-underline-reveal:before {
@@ -2090,7 +2090,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden; }
   .hvr-overline-reveal:before {
@@ -2121,7 +2121,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: box-shadow;
@@ -2135,7 +2135,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: box-shadow;
@@ -2149,7 +2149,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: box-shadow, transform;
@@ -2165,7 +2165,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: box-shadow;
@@ -2179,15 +2179,15 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
   -webkit-transition-property: box-shadow;
   transition-property: box-shadow;
-  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px transparent;
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
   /* Hack to improve aliasing on mobile/tablet devices */ }
   .hvr-box-shadow-inset:hover, .hvr-box-shadow-inset:focus, .hvr-box-shadow-inset:active {
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px transparent;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.6), 0 0 1px rgba(0, 0, 0, 0);
     /* Hack to improve aliasing on mobile/tablet devices */ }
 
 /* Float Shadow */
@@ -2196,7 +2196,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -2212,8 +2212,8 @@ table {
     height: 10px;
     width: 90%;
     opacity: 0;
-    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
-    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
     /* W3C */
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
@@ -2235,7 +2235,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-shadow-radial:before, .hvr-shadow-radial:after {
     pointer-events: none;
@@ -2253,12 +2253,12 @@ table {
     transition-property: opacity; }
   .hvr-shadow-radial:before {
     bottom: 100%;
-    background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-    background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, transparent 80%); }
+    background: -webkit-radial-gradient(50% 150%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%); }
   .hvr-shadow-radial:after {
     top: 100%;
-    background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, transparent 80%);
-    background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, transparent 80%); }
+    background: -webkit-radial-gradient(50% -50%, ellipse, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%); }
   .hvr-shadow-radial:hover:before, .hvr-shadow-radial:focus:before, .hvr-shadow-radial:active:before, .hvr-shadow-radial:hover:after, .hvr-shadow-radial:focus:after, .hvr-shadow-radial:active:after {
     opacity: 1; }
 
@@ -2269,7 +2269,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-bubble-top:before {
     pointer-events: none;
@@ -2295,7 +2295,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-bubble-right:before {
     pointer-events: none;
@@ -2321,7 +2321,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-bubble-bottom:before {
     pointer-events: none;
@@ -2347,7 +2347,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-bubble-left:before {
     pointer-events: none;
@@ -2373,7 +2373,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -2405,7 +2405,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -2437,7 +2437,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -2469,7 +2469,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
@@ -2502,7 +2502,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-left: 2.2em;
   -webkit-transition-duration: 0.1s;
@@ -2531,7 +2531,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.1s;
@@ -2581,7 +2581,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em; }
   .hvr-icon-down:before {
@@ -2627,7 +2627,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em; }
   .hvr-icon-up:before {
@@ -2652,7 +2652,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em; }
   .hvr-icon-spin:before {
@@ -2698,7 +2698,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em; }
   .hvr-icon-drop:before {
@@ -2733,7 +2733,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em; }
   .hvr-icon-fade:before {
@@ -2772,7 +2772,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em; }
   .hvr-icon-float-away:before, .hvr-icon-float-away:after {
@@ -2814,7 +2814,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em; }
   .hvr-icon-sink-away:before, .hvr-icon-sink-away:after {
@@ -2843,7 +2843,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -2872,7 +2872,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -2915,7 +2915,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em; }
   .hvr-icon-pulse:before {
@@ -2952,7 +2952,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em; }
   .hvr-icon-pulse-grow:before {
@@ -2991,7 +2991,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em; }
   .hvr-icon-pulse-shrink:before {
@@ -3030,7 +3030,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3073,7 +3073,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3108,7 +3108,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3139,7 +3139,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3168,7 +3168,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3197,7 +3197,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3226,7 +3226,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3283,7 +3283,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3346,7 +3346,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3419,7 +3419,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3486,7 +3486,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3529,7 +3529,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3620,7 +3620,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   padding-right: 2.2em;
   -webkit-transition-duration: 0.4s;
@@ -3650,7 +3650,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-curl-top-left:before {
     pointer-events: none;
@@ -3681,7 +3681,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-curl-top-right:before {
     pointer-events: none;
@@ -3709,7 +3709,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-curl-bottom-right:before {
     pointer-events: none;
@@ -3737,7 +3737,7 @@ table {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative; }
   .hvr-curl-bottom-left:before {
     pointer-events: none;
@@ -3763,7 +3763,7 @@ table {
 GENERAL
 ********************************************/
 * {
-  color: #6f6c73; }
+  color: #fff; }
 
 .text-bold {
   font-weight: 700; }
@@ -3772,19 +3772,19 @@ GENERAL
   text-align: right; }
 
 .text-primary {
-  color: #BFA1E3; }
+  color: #5B6584; }
 
 .container {
-  max-width: 1200px;
+  max-width: 740px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 5%; }
+  padding: 0; }
 
 a {
-  color: #6f6c73;
+  color: #fff;
   transition: 0.2s ease; }
   a:hover {
-    color: #6f6c73; }
+    color: #fff; }
 
 h1 {
   font-size: 3em; }
@@ -3801,11 +3801,12 @@ ol li, ul li {
   line-height: 1.6em; }
 
 section {
+  background-color: #5B6584;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 40px;
-  margin-top: 90px;
-  margin-bottom: 90px; }
+  margin-top: 0;
+  margin-bottom: 0; }
 
 .section-title {
   font-size: 20px;
@@ -3815,7 +3816,7 @@ section {
 .hr {
   width: 100%;
   height: 1px;
-  background-color: #BFA1E3; }
+  background-color: #5B6584; }
 
 .col-sm-83 {
   width: 83.3%; }
@@ -3831,20 +3832,12 @@ nav {
   position: fixed;
   display: inline-block;
   width: 100%;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+10,ffffff+33,ffffff+33,ffffff+50&1+10,0.5+33,0+50 */
-  background: -moz-linear-gradient(top, white 10%, rgba(255, 255, 255, 0.5) 33%, rgba(255, 255, 255, 0) 50%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, white 10%, rgba(255, 255, 255, 0.5) 33%, rgba(255, 255, 255, 0) 50%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, white 10%, rgba(255, 255, 255, 0.5) 33%, rgba(255, 255, 255, 0) 50%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
-  /* IE6-9 */ }
+  background-color: transparent; }
   nav #logo {
     text-decoration: none;
-    color: #6f6c73; }
+    color: #fff; }
     nav #logo:hover {
-      color: #BFA1E3; }
+      border-bottom: 1px solid #fff; }
   nav h1, nav .text-bold {
     margin-bottom: 20px; }
   nav .site-title {
@@ -3852,22 +3845,20 @@ nav {
     display: inline-block;
     margin-top: 4px; }
   nav .exhibition-info-title {
-    color: #6f6c73; }
+    color: #fff; }
 
 ul.nav-menu {
-  display: inline;
+  display: inline-flex;
   float: right;
   text-align: right;
   font-size: 22px;
-  position: fixed;
-  top: 34px;
-  right: 154px; }
+  position: fixed; }
   ul.nav-menu li {
     padding: 0px 4px;
     margin-bottom: 12px; }
   ul.nav-menu a {
     text-decoration: none;
-    color: #6f6c73;
+    color: #fff;
     font-weight: 700;
     padding-left: 8px;
     padding-right: 8px;
@@ -3876,35 +3867,35 @@ ul.nav-menu {
     -o-transition: box-shadow .20s ease-out;
     transition: box-shadow .20s ease-out; }
     ul.nav-menu a:hover {
-      border-bottom: 2px solid rgba(191, 161, 227, 0.8);
-      box-shadow: inset 0 -12px 0 rgba(191, 161, 227, 0.8); }
+      border-bottom: 2px solid rgba(91, 101, 132, 0.8);
+      box-shadow: inset 0 -12px 0 rgba(91, 101, 132, 0.8); }
 
 /********************************************
 MAIN
 ********************************************/
 #main .poster-text {
   position: relative;
-  font-size: 1.7em;
+  font-size: 1.4em;
   line-height: 1.8em;
   z-index: 200;
-  color: #6f6c73;
-  float: left;
-  mix-blend-mode: multiply; }
+  color: #fff;
+  float: left; }
 #main a.artist-name {
-  color: #6f6c73;
+  color: #fff;
   padding: 3px;
   margin-right: 1px;
   text-decoration: none;
-  border-bottom: 1px solid rgba(191, 161, 227, 0.8);
-  box-shadow: inset 0 -12px 0 rgba(191, 161, 227, 0.8);
+  border-bottom: 1px solid rgba(91, 101, 132, 0.8);
+  box-shadow: inset 0 -12px 0 rgba(91, 101, 132, 0.8);
   -webkit-transition: box-shadow .20s ease-out;
   -moz-transition: box-shadow .20s ease-out;
   -o-transition: box-shadow .20s ease-out;
   transition: box-shadow .20s ease-out;
   position: relative; }
   #main a.artist-name:hover {
-    border-bottom: 1px solid #BFA1E3;
-    box-shadow: inset 0 -2px 0 #BFA1E3; }
+    mix-blend-mode: multiply;
+    border-bottom: 1px solid #5B6584;
+    box-shadow: inset 0 -2px 0 #5B6584; }
 
 .thumbnail {
   display: none; }
@@ -3950,11 +3941,11 @@ a.link {
   -o-transition: box-shadow .20s ease-out;
   transition: box-shadow .20s ease-out; }
   a.link:hover {
-    border-bottom: 2px solid rgba(191, 161, 227, 0.5);
-    box-shadow: inset 0 -8px 0 rgba(191, 161, 227, 0.5); }
+    border-bottom: 2px solid rgba(91, 101, 132, 0.5);
+    box-shadow: inset 0 -8px 0 rgba(91, 101, 132, 0.5); }
 
 .artwork-title {
-  color: #BFA1E3; }
+  color: #5B6584; }
 
 /********************************************
 EXHIBITION-INFO
@@ -3963,20 +3954,20 @@ EXHIBITION-INFO
   font-size: 1.4em;
   line-height: 1.7em; }
   #exhibition-info a.apply-talk {
-    color: #6f6c73;
+    color: #fff;
     padding: 3px;
     margin-right: 1px;
     text-decoration: none;
-    border-bottom: 1px solid rgba(191, 161, 227, 0.8);
-    box-shadow: inset 0 -12px 0 rgba(191, 161, 227, 0.8);
+    border-bottom: 1px solid rgba(91, 101, 132, 0.8);
+    box-shadow: inset 0 -12px 0 rgba(91, 101, 132, 0.8);
     -webkit-transition: box-shadow .20s ease-out;
     -moz-transition: box-shadow .20s ease-out;
     -o-transition: box-shadow .20s ease-out;
     transition: box-shadow .20s ease-out;
     position: relative; }
     #exhibition-info a.apply-talk:hover {
-      border-bottom: 1px solid #BFA1E3;
-      box-shadow: inset 0 -2px 0 #BFA1E3; }
+      border-bottom: 1px solid #5B6584;
+      box-shadow: inset 0 -2px 0 #5B6584; }
 
 .exhibition-intro p {
   margin-bottom: 20px; }
@@ -3993,7 +3984,7 @@ ul.group-info-text li {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   -webkit-transition-property: color;
   transition-property: color;
@@ -4028,7 +4019,7 @@ ul.group-info-text li {
   margin-bottom: 30px; }
 
 h6.exhibition-info-title {
-  border-bottom: 2px solid #6f6c73;
+  border-bottom: 2px solid #fff;
   font-weight: 700;
   display: inline; }
 
@@ -4039,16 +4030,11 @@ p.info-detail {
 .exhibition-intro.col-sm-83 {
   margin-bottom: 80px; }
 
-#map {
-  width: 100%;
-  height: 400px;
-  background-color: grey; }
-
 /********************************************
 FOOTER
 ********************************************/
 footer {
-  border-top: 1px solid #BFA1E3;
+  border-top: 1px solid #5B6584;
   padding-top: 20px;
   padding-bottom: 20px;
   bottom: 0;
