@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
-@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -3763,7 +3762,14 @@ table {
 GENERAL
 ********************************************/
 * {
-  color: #fff; }
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5em;
+  font-family: 'Nanum Myeongjo', serif; }
+
+.sans,
+.artwork-description {
+  font-family: 'Spoqa Han Sans', sans-serif; }
 
 .text-bold {
   font-weight: 700; }
@@ -3784,20 +3790,12 @@ a {
   color: #fff;
   transition: 0.2s ease; }
   a:hover {
-    color: #fff; }
+    color: #5B6584; }
 
 h1 {
-  font-size: 3em; }
-
-h3 {
-  font-size: 2em; }
-
-p {
-  font-size: 0.8em;
-  line-height: 1.8em; }
+  font-size: 1.8em; }
 
 ol li, ul li {
-  font-size: 0.8em;
   line-height: 1.6em; }
 
 section {
@@ -3808,9 +3806,44 @@ section {
   margin-top: 0;
   margin-bottom: 0; }
 
+section.bg-img {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: #5B6584; }
+  section.bg-img.main {
+    padding-top: 160px;
+    text-align: center;
+    background: url("/img/2.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
+  section.bg-img.mira {
+    background: url("/img/1.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
+  section.bg-img.jisun {
+    background: url("/img/2.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
+
+.hero-title {
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 70px; }
+
 .section-title {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: -0.08em;
+  line-height: 1.4em;
   margin-bottom: 50px; }
 
 .hr {
@@ -3818,217 +3851,91 @@ section {
   height: 1px;
   background-color: #5B6584; }
 
-.col-sm-83 {
-  width: 83.3%; }
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px; }
+  .btn:hover {
+    text-decoration: none; }
+
+.btn-line {
+  border-radius: 0;
+  color: #fff;
+  padding: 14px 34px;
+  border: 2px solid #fff; }
+  .btn-line:hover {
+    background-color: rgba(255, 255, 255, 0.5); }
 
 /********************************************
 NAVIGATION
 ********************************************/
 nav {
-  padding-top: 34px;
-  padding-bottom: 14px;
+  padding: 34px 20px 14px 20px;
   z-index: 1100;
   top: 0;
   position: fixed;
   display: inline-block;
   width: 100%;
   background-color: transparent; }
-  nav #logo {
-    text-decoration: none;
-    color: #fff; }
-    nav #logo:hover {
-      border-bottom: 1px solid #fff; }
-  nav h1, nav .text-bold {
-    margin-bottom: 20px; }
   nav .site-title {
-    font-size: 1.3em;
+    font-size: 20px;
     display: inline-block;
-    margin-top: 4px; }
-  nav .exhibition-info-title {
-    color: #fff; }
-
-ul.nav-menu {
-  display: inline-flex;
-  float: right;
-  text-align: right;
-  font-size: 22px;
-  position: fixed; }
-  ul.nav-menu li {
-    padding: 0px 4px;
-    margin-bottom: 12px; }
-  ul.nav-menu a {
+    text-align: center; }
+    nav .site-title:hover {
+      text-decoration: none;
+      color: #fff; }
+  nav .nav-menu li a {
     text-decoration: none;
-    color: #fff;
-    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    font-weight: 500;
     padding-left: 8px;
     padding-right: 8px;
     -webkit-transition: box-shadow .20s ease-out;
     -moz-transition: box-shadow .20s ease-out;
     -o-transition: box-shadow .20s ease-out;
     transition: box-shadow .20s ease-out; }
-    ul.nav-menu a:hover {
+    nav .nav-menu li a:hover {
+      color: white;
       border-bottom: 2px solid rgba(91, 101, 132, 0.8);
-      box-shadow: inset 0 -12px 0 rgba(91, 101, 132, 0.8); }
+      box-shadow: inset 0 -15px 0 rgba(91, 101, 132, 0.8); }
+
+ul.nav-menu {
+  display: inline-flex;
+  float: right;
+  text-align: right;
+  position: fixed; }
+  ul.nav-menu li {
+    padding: 0px 4px; }
 
 /********************************************
 MAIN
 ********************************************/
-#main .poster-text {
-  position: relative;
-  font-size: 1.4em;
-  line-height: 1.8em;
-  z-index: 200;
-  color: #fff;
-  float: left; }
-#main a.artist-name {
-  color: #fff;
-  padding: 3px;
-  margin-right: 1px;
-  text-decoration: none;
-  border-bottom: 1px solid rgba(91, 101, 132, 0.8);
-  box-shadow: inset 0 -12px 0 rgba(91, 101, 132, 0.8);
-  -webkit-transition: box-shadow .20s ease-out;
-  -moz-transition: box-shadow .20s ease-out;
-  -o-transition: box-shadow .20s ease-out;
-  transition: box-shadow .20s ease-out;
-  position: relative; }
-  #main a.artist-name:hover {
-    mix-blend-mode: multiply;
-    border-bottom: 1px solid #5B6584;
-    box-shadow: inset 0 -2px 0 #5B6584; }
-
-.thumbnail {
-  display: none; }
-
-.thumbnail.hover {
-  display: block;
-  width: 480px;
-  height: auto;
-  z-index: -1000;
-  mix-blend-mode: multiply;
-  position: fixed;
-  top: 50%;
-  left: 46%;
-  margin: 0 auto;
-  text-align: center;
-  border: 0;
-  -webkit-transition: all .20s ease-out;
-  -moz-transition: all .20s ease-out;
-  -o-transition: all .20s ease-out;
-  transition: all .20s ease-out;
-  transform: translate(-50%, -50%); }
+.exhibition-info {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px; }
 
 /********************************************
 ARTISTS
 ********************************************/
-#artists .artists-list {
-  font-size: 0.8em;
-  margin-bottom: 70px; }
-  #artists .artists-list li {
-    margin-right: 10px; }
-#artists h4 {
-  font-weight: 700;
-  margin-bottom: 20px;
-  line-height: 1.6em; }
-#artists .one-artist {
-  padding-top: 50px; }
-
-a.link {
-  text-decoration: none;
-  padding: 0;
-  -webkit-transition: box-shadow .20s ease-out;
-  -moz-transition: box-shadow .20s ease-out;
-  -o-transition: box-shadow .20s ease-out;
-  transition: box-shadow .20s ease-out; }
-  a.link:hover {
-    border-bottom: 2px solid rgba(91, 101, 132, 0.5);
-    box-shadow: inset 0 -8px 0 rgba(91, 101, 132, 0.5); }
-
-.artwork-title {
-  color: #5B6584; }
-
-/********************************************
-EXHIBITION-INFO
-********************************************/
-#exhibition-info {
-  font-size: 1.4em;
-  line-height: 1.7em; }
-  #exhibition-info a.apply-talk {
-    color: #fff;
-    padding: 3px;
-    margin-right: 1px;
-    text-decoration: none;
-    border-bottom: 1px solid rgba(91, 101, 132, 0.8);
-    box-shadow: inset 0 -12px 0 rgba(91, 101, 132, 0.8);
-    -webkit-transition: box-shadow .20s ease-out;
-    -moz-transition: box-shadow .20s ease-out;
-    -o-transition: box-shadow .20s ease-out;
-    transition: box-shadow .20s ease-out;
-    position: relative; }
-    #exhibition-info a.apply-talk:hover {
-      border-bottom: 1px solid #5B6584;
-      box-shadow: inset 0 -2px 0 #5B6584; }
-
-.exhibition-intro p {
+.short-divider {
+  margin-top: 20px;
   margin-bottom: 20px; }
 
-ul.group-info-text li {
-  display: block !important;
-  line-height: 2em;
-  font-size: 1em;
-  padding: 13px 6px 12px 6px;
-  border-radius: 3px;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s; }
-  ul.group-info-text li:before {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #bfa1e3;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transform-origin: 0 50%;
-    transform-origin: 0 50%;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    -webkit-transition-timing-function: ease-out;
-    transition-timing-function: ease-out; }
-  ul.group-info-text li:hover:before, ul.group-info-text li:focus:before, ul.group-info-text li:active:before {
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1); }
-  ul.group-info-text li:hover {
-    color: #fff; }
+.vertical-divider {
+  color: rgba(255, 255, 255, 0.2); }
 
-.exhibition-info-detail .col-sm-4 div {
-  margin-bottom: 30px; }
+.artwork-title {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 14px; }
 
-h6.exhibition-info-title {
-  border-bottom: 2px solid #fff;
-  font-weight: 700;
-  display: inline; }
-
-p.info-detail {
-  margin-top: 10px;
-  line-height: 1.6em; }
-
-.exhibition-intro.col-sm-83 {
-  margin-bottom: 80px; }
+.artwork-description {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 20px; }
 
 /********************************************
 FOOTER
@@ -4110,27 +4017,26 @@ footer {
   div {
     overflow-x: hidden; }
 
-  ul.nav-menu {
-    float: left; }
-    ul.nav-menu a {
-      padding-left: 0; }
+  ul.nav-menu a {
+    padding-left: 0; }
 
   .thumbnail.hover {
     width: 300px;
     height: 300px;
     top: 50%; } }
-section.test {
-  background-image: url("../img/1.jpg");
-  padding-top: 100px;
-  padding-bottom: 100px; }
+/**Typing effect
 
 .text-js {
-  opacity: 0; }
-
+  opacity: 0;
+}
 @keyframes flash {
   0% {
-    opacity: 1; }
+    opacity: 1;
+  }
   100% {
-    opacity: 0; } }
+    opacity: 0;
+  }
+}
+**/
 
 /*# sourceMappingURL=style.css.map */
