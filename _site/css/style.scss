@@ -14,6 +14,7 @@ $grey-25: #d0d0d0;
 $grey-txt: #712bce;
 $grey-txt-d1: $poster-txt;
 $border-radius-base: 3px;
+$sm-screen: 500px;
 
 /********************************************
 GENERAL
@@ -57,6 +58,13 @@ a {
   }
 }
 
+.adhoc-br {
+  display: none;
+  @media only screen and (max-width: $sm-screen) {
+    display: block;
+  }
+}
+
 h1 {
   font-size: 1.8em;
 }
@@ -86,6 +94,10 @@ section.bg-img {
   padding-top: 140px;
   padding-bottom: 140px;
   background-color: $primary-color;
+  @media only screen and (max-width: $sm-screen) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
 
   &.main {
     padding-top: 160px;
@@ -119,6 +131,9 @@ section.bg-img {
   font-size: 64px;
   font-weight: 600;
   margin-bottom: 70px;
+  @media only screen and (max-width: $sm-screen) {
+    font-size: 44px;
+  }
 }
 .section-title {
   font-size: 36px;
@@ -126,6 +141,10 @@ section.bg-img {
   letter-spacing: -0.08em;
   line-height: 1.4em;
   margin-bottom: 50px;
+  word-break: keep-all;
+  @media only screen and (max-width: $sm-screen) {
+    font-size: 25px;
+  }
 }
 
 .hr {
@@ -175,6 +194,9 @@ nav {
       text-decoration: none;
       color: $white;
     }
+    @media only screen and (max-width: $sm-screen) {
+      font-size: 18px;
+    }
   }
 
   .nav-menu li a {
@@ -194,6 +216,9 @@ nav {
       color: rgba($white, 1);
       border-bottom: 2px solid rgba($primary-color, 0.8);
       box-shadow: inset 0 -15px 0 rgba($primary-color, 0.8);
+    }
+    @media only screen and (max-width: $sm-screen) {
+      font-size: 18px;
     }
   }
 
@@ -218,6 +243,9 @@ MAIN
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 20px;
+  @media only screen and (max-width: $sm-screen) {
+    font-size: 20px;
+  }
 }
 
 /********************************************
