@@ -3844,6 +3844,9 @@ section.bg-img {
     background-size: cover;
     background-position: center center; }
 
+.text-js.hero-title {
+  margin-bottom: 10px; }
+
 .hero-title {
   font-size: 64px;
   font-weight: 600;
