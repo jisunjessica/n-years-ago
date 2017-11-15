@@ -117,6 +117,22 @@ section.bg-img {
     background-size: cover;
     background-position: center center;
   }
+  &.hyemin {
+    background: url('/img/2.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+  &.keongmi {
+    background: url('/img/1.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
   &.jisun {
     background: url('/img/2.jpg') no-repeat;
     -webkit-background-size: cover;
@@ -125,12 +141,64 @@ section.bg-img {
     background-size: cover;
     background-position: center center;
   }
+  &.eunji {
+    background: url('/img/1.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+  &.somi {
+    background: url('/img/2.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+  &.gayoung {
+    background: url('/img/2.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+  &.miso {
+    background: url('/img/1.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+  &.youngbin {
+    background: url('/img/2.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+  &.heewon {
+    background: url('/img/1.jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+h1.text-js.hero-title {
+  margin-bottom: 10px;
 }
 
 .hero-title {
   font-size: 64px;
   font-weight: 600;
-  margin-bottom: 70px;
+  margin-bottom: 40px;
   @media only screen and (max-width: $sm-screen) {
     font-size: 44px;
   }
@@ -138,7 +206,7 @@ section.bg-img {
 .section-title {
   font-size: 36px;
   font-weight: 300;
-  letter-spacing: -0.08em;
+  letter-spacing: -0.04em;
   line-height: 1.4em;
   margin-bottom: 50px;
   word-break: keep-all;

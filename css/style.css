@@ -3836,6 +3836,20 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
+  section.bg-img.hyemin {
+    background: url("/img/2.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
+  section.bg-img.keongmi {
+    background: url("/img/1.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
   section.bg-img.jisun {
     background: url("/img/2.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -3843,14 +3857,56 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
+  section.bg-img.eunji {
+    background: url("/img/1.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
+  section.bg-img.somi {
+    background: url("/img/2.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
+  section.bg-img.gayoung {
+    background: url("/img/2.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
+  section.bg-img.miso {
+    background: url("/img/1.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
+  section.bg-img.youngbin {
+    background: url("/img/2.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
+  section.bg-img.heewon {
+    background: url("/img/1.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center; }
 
-.text-js.hero-title {
+h1.text-js.hero-title {
   margin-bottom: 10px; }
 
 .hero-title {
   font-size: 64px;
   font-weight: 600;
-  margin-bottom: 70px; }
+  margin-bottom: 40px; }
   @media only screen and (max-width: 500px) {
     .hero-title {
       font-size: 44px; } }
@@ -3858,7 +3914,7 @@ section.bg-img {
 .section-title {
   font-size: 36px;
   font-weight: 300;
-  letter-spacing: -0.08em;
+  letter-spacing: -0.04em;
   line-height: 1.4em;
   margin-bottom: 50px;
   word-break: keep-all; }
