@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>벌써 오년 전展</title>
-  <meta property="fb:app_id" content="1611406575829039" />
-  <meta property="og:url" content="http://n-years-ago.com" />
-  <meta property="og:title" content="벌써 오년 전 5-years-ago" />
-  <meta property="og:description" content="졸업 후 사회 생활 5년차, 전시에 참가하는 10명은 직업과 분야 모두 다르지만, 각자의 자리에서 활발히 활동하는 여성 디자이너로서 자신들의 좌표를 끊임없이 질문한다." />
-  <meta property="og:image" content="" />
-
+  {% include meta.html %}
+  
   <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -49,36 +43,7 @@
       </div>
   </section>
 
-  <section class="bg-img mira">
-      <div class="container row">
-        <div class="col-xs-offset-1 col-xs-10">
-          <div class="type-js-0">
-            <h2 class="text-js-0 section-title">공미라는 다섯 번의 파도를 넘은 끝에<br>내가 가장 행복할 수 있는 환경과 조건을 알아냈다.</h2>
-          </div>
-          <p class="short-divider">
-            -
-          </p>
-          <div class="artwork-info">
-            <h4 class="artwork-title">Nomad Day</h4>
-            <p class="artwork-description">직접 쓰고 싶어서 만든, 도보거리 기준으로 주변 작업 장소를 빠르게 찾아주는 앱 `노마드 데이`.<br> 박지선, 임연준 만듬.</p>
-            <p class="artist-contact">
-              <a href="mailto:jisun89park@gmail.com" class="link">✉️</a>  <span class="vertical-divider">|</span> <a href="http://jisunpark.kr" target="_blank" class="link">🌐</a>
-            </p>
-          </div>
-        </div>
-      </div>
-  </section>
-
-  <section id="group-info">
-      <div class="container">
-        <h3>전시 그룹 소개</h3>
-        <ul>
-          <li>블라블라</li>
-          <li>블라블라</li>
-          <li>블라블라</li>
-        </ul>
-      </div>
-  </section>
+  {{ content }}
 
   <footer>
     <div class="container">
