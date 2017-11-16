@@ -3906,10 +3906,12 @@ h1.text-js.hero-title {
 .hero-title {
   font-size: 64px;
   font-weight: 600;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  min-height: 70px; }
   @media only screen and (max-width: 500px) {
     .hero-title {
-      font-size: 44px; } }
+      font-size: 44px;
+      min-height: 48px; } }
 
 .section-title {
   font-size: 36px;
@@ -3966,19 +3968,18 @@ nav {
         font-size: 18px; } }
   nav .nav-menu li a {
     text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
     color: rgba(255, 255, 255, 0.9);
     font-size: 20px;
     font-weight: 500;
-    padding-left: 8px;
-    padding-right: 8px;
-    -webkit-transition: box-shadow .20s ease-out;
-    -moz-transition: box-shadow .20s ease-out;
-    -o-transition: box-shadow .20s ease-out;
-    transition: box-shadow .20s ease-out; }
+    padding: 2px 8px;
+    -webkit-transition: background-color .20s ease-out;
+    -moz-transition: background-color .20s ease-out;
+    -o-transition: background-color .20s ease-out;
+    transition: background-color .20s ease-out; }
     nav .nav-menu li a:hover {
-      color: white;
-      border-bottom: 2px solid rgba(91, 101, 132, 0.8);
-      box-shadow: inset 0 -15px 0 rgba(91, 101, 132, 0.8); }
+      color: #333;
+      background-color: rgba(255, 255, 255, 0.6); }
     @media only screen and (max-width: 500px) {
       nav .nav-menu li a {
         font-size: 18px; } }
