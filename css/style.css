@@ -4030,18 +4030,34 @@ GROUP-INFO
 ********************************************/
 #group-info ul li {
   font-size: 16px;
-  margin-bottom: 2em; }
+  margin-bottom: 1.1em;
+  line-height: 30px;
+  border-radius: 5px;
+  word-break: keep-all;
+  padding: 10px 0;
+  -webkit-transition: background-color .60s ease-out;
+  -moz-transition: background-color .60s ease-out;
+  -o-transition: background-color .60s ease-out;
+  transition: background-color .60s ease-out;
+  -webkit-transition: padding-left .3s ease-out;
+  -moz-transition: padding-left .3s ease-out;
+  -o-transition: padding-left .3s ease-out;
+  transition: padding-left .3s ease-out; }
+  #group-info ul li:hover {
+    background-color: rgba(78, 89, 122, 0.5);
+    padding-left: 14px; }
 
 /********************************************
 FOOTER
 ********************************************/
 footer {
-  background-color: black;
-  border-top: 1px solid #5B6584;
+  background-color: white;
   padding-top: 20px;
   padding-bottom: 20px;
   bottom: 0;
-  color: #d0d0d0; }
+  color: #5B6584; }
+  footer a.link, footer p, footer a span {
+    color: #5B6584; }
   footer h6 {
     font-weight: 700;
     margin-bottom: 12px; }
