@@ -3761,6 +3761,9 @@ table {
 /********************************************
 GENERAL
 ********************************************/
+.site-header, .site-footer {
+  display: none; }
+
 * {
   color: #fff;
   font-size: 20px;
@@ -3906,10 +3909,12 @@ h1.text-js.hero-title {
 .hero-title {
   font-size: 64px;
   font-weight: 600;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  min-height: 70px; }
   @media only screen and (max-width: 500px) {
     .hero-title {
-      font-size: 44px; } }
+      font-size: 44px;
+      min-height: 48px; } }
 
 .section-title {
   font-size: 36px;
@@ -3966,19 +3971,18 @@ nav {
         font-size: 18px; } }
   nav .nav-menu li a {
     text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
     color: rgba(255, 255, 255, 0.9);
     font-size: 20px;
     font-weight: 500;
-    padding-left: 8px;
-    padding-right: 8px;
-    -webkit-transition: box-shadow .20s ease-out;
-    -moz-transition: box-shadow .20s ease-out;
-    -o-transition: box-shadow .20s ease-out;
-    transition: box-shadow .20s ease-out; }
+    padding: 2px 8px;
+    -webkit-transition: background-color .20s ease-out;
+    -moz-transition: background-color .20s ease-out;
+    -o-transition: background-color .20s ease-out;
+    transition: background-color .20s ease-out; }
     nav .nav-menu li a:hover {
-      color: white;
-      border-bottom: 2px solid rgba(91, 101, 132, 0.8);
-      box-shadow: inset 0 -15px 0 rgba(91, 101, 132, 0.8); }
+      color: #333;
+      background-color: rgba(255, 255, 255, 0.6); }
     @media only screen and (max-width: 500px) {
       nav .nav-menu li a {
         font-size: 18px; } }
@@ -3986,8 +3990,7 @@ nav {
 ul.nav-menu {
   display: inline-flex;
   float: right;
-  text-align: right;
-  position: fixed; }
+  text-align: right; }
   ul.nav-menu li {
     padding: 0px 4px; }
 
@@ -4023,15 +4026,22 @@ ARTISTS
   margin-bottom: 20px; }
 
 /********************************************
+GROUP-INFO
+********************************************/
+#group-info ul li {
+  font-size: 16px;
+  margin-bottom: 2em; }
+
+/********************************************
 FOOTER
 ********************************************/
 footer {
+  background-color: black;
   border-top: 1px solid #5B6584;
   padding-top: 20px;
   padding-bottom: 20px;
   bottom: 0;
-  color: #d0d0d0;
-  margin-top: 60px; }
+  color: #d0d0d0; }
   footer h6 {
     font-weight: 700;
     margin-bottom: 12px; }

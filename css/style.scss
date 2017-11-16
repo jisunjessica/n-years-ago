@@ -20,6 +20,9 @@ $sm-screen: 500px;
 /********************************************
 GENERAL
 ********************************************/
+.site-header, .site-footer {
+  display: none;
+}
 
 * {
   color: $white;
@@ -78,7 +81,6 @@ p {
 }
 
 ol li, ul li {
-
   line-height: 1.6em;
 }
 
@@ -307,7 +309,6 @@ ul.nav-menu {
   display: inline-flex;
   float: right;
   text-align: right;
-  position: fixed;
 
   li {
     padding: 0px 4px;
@@ -349,17 +350,27 @@ ARTISTS
   margin-bottom: 20px;
 }
 
+/********************************************
+GROUP-INFO
+********************************************/
+#group-info {
+  ul li {
+    font-size: 16px;
+    margin-bottom: 2em;
+  }
+}
+
 
 /********************************************
 FOOTER
 ********************************************/
 footer {
+  background-color: black;
   border-top: 1px solid $primary-color;
   padding-top: 20px;
   padding-bottom: 20px;
   bottom: 0;
   color: $grey-25;
-  margin-top: 60px;
 
   h6 {
     font-weight: 700;

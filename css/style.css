@@ -3761,6 +3761,9 @@ table {
 /********************************************
 GENERAL
 ********************************************/
+.site-header, .site-footer {
+  display: none; }
+
 * {
   color: #fff;
   font-size: 20px;
@@ -3987,8 +3990,7 @@ nav {
 ul.nav-menu {
   display: inline-flex;
   float: right;
-  text-align: right;
-  position: fixed; }
+  text-align: right; }
   ul.nav-menu li {
     padding: 0px 4px; }
 
@@ -4024,15 +4026,22 @@ ARTISTS
   margin-bottom: 20px; }
 
 /********************************************
+GROUP-INFO
+********************************************/
+#group-info ul li {
+  font-size: 16px;
+  margin-bottom: 2em; }
+
+/********************************************
 FOOTER
 ********************************************/
 footer {
+  background-color: black;
   border-top: 1px solid #5B6584;
   padding-top: 20px;
   padding-bottom: 20px;
   bottom: 0;
-  color: #d0d0d0;
-  margin-top: 60px; }
+  color: #d0d0d0; }
   footer h6 {
     font-weight: 700;
     margin-bottom: 12px; }
