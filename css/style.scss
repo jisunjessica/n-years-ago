@@ -10,6 +10,7 @@
 $white: #fff;
 $primary-color: #5B6584;
 $poster-txt: $white;
+$dark-grey: #333;
 $grey-25: #d0d0d0;
 $grey-txt: #712bce;
 $grey-txt-d1: $poster-txt;
@@ -199,8 +200,10 @@ h1.text-js.hero-title {
   font-size: 64px;
   font-weight: 600;
   margin-bottom: 40px;
+  min-height: 70px;
   @media only screen and (max-width: $sm-screen) {
     font-size: 44px;
+    min-height: 48px;
   }
 }
 .section-title {
@@ -269,25 +272,33 @@ nav {
 
   .nav-menu li a {
     text-decoration: none;
+    background-color: rgba($white, 0);
     color: rgba($white, 0.9);
     font-size: 20px;
     font-weight: 500;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 2px 8px;
 
-    -webkit-transition: box-shadow .20s ease-out;
-    -moz-transition: box-shadow .20s ease-out;
-    -o-transition: box-shadow .20s ease-out;
-    transition: box-shadow .20s ease-out;
+    -webkit-transition: background-color .20s ease-out;
+    -moz-transition: background-color .20s ease-out;
+    -o-transition: background-color .20s ease-out;
+    transition: background-color .20s ease-out;
 
     &:hover {
-      color: rgba($white, 1);
-      border-bottom: 2px solid rgba($primary-color, 0.8);
-      box-shadow: inset 0 -15px 0 rgba($primary-color, 0.8);
+      color: $dark-grey;
+      background-color: rgba($white, 0.6);
     }
     @media only screen and (max-width: $sm-screen) {
       font-size: 18px;
     }
+    // .btn-line {
+    //   border-radius: 0;
+    //   color: $white;
+    //   padding: 14px 34px;
+    //   border: 2px solid $white;
+    //   &:hover {
+    //     background-color: rgba($white, 0.5);
+    //   }
+    // }
   }
 
 }
