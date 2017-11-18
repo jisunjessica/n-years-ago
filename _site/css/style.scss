@@ -31,7 +31,8 @@ GENERAL
   font-family: 'Nanum Myeongjo', serif;
 }
 .sans,
-.artwork-description {
+.artwork-description,
+.artwork-description strong {
   font-family: 'Spoqa Han Sans', sans-serif;
 }
 
@@ -137,7 +138,7 @@ section.bg-img {
     background-position: center center;
   }
   &.jisun {
-    background: url('/img/2.jpg') no-repeat;
+    background: url('/img/bg-jisun.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -346,7 +347,7 @@ ARTISTS
 }
 .artwork-description {
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   margin-bottom: 20px;
 }
 
