@@ -3926,7 +3926,8 @@ h1.text-js.hero-title {
   word-break: keep-all; }
   @media only screen and (max-width: 500px) {
     .section-title {
-      font-size: 25px; } }
+      font-size: 21px;
+      margin-bottom: 10px; } }
 
 .hr {
   width: 100%;
@@ -3947,6 +3948,15 @@ h1.text-js.hero-title {
   padding: 14px 34px;
   border: 2px solid #fff; }
   .btn-line:hover {
+    background-color: rgba(255, 255, 255, 0.5); }
+
+.btn-line-sm {
+  border-radius: 0;
+  font-size: 16px;
+  color: #fff;
+  padding: 8px 34px;
+  border: 1px solid #fff; }
+  .btn-line-sm:hover {
     background-color: rgba(255, 255, 255, 0.5); }
 
 /********************************************
@@ -4014,7 +4024,7 @@ ARTISTS
   margin-bottom: 20px; }
 
 .vertical-divider {
-  color: rgba(255, 255, 255, 0.2); }
+  color: rgba(255, 255, 255, 0); }
 
 .artwork-title {
   font-size: 26px;
@@ -4024,7 +4034,7 @@ ARTISTS
 .artwork-description {
   font-size: 16px;
   font-weight: 300;
-  margin-bottom: 20px; }
+  margin-bottom: 50px; }
 
 /********************************************
 GROUP-INFO
