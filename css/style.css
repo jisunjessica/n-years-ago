@@ -4148,20 +4148,20 @@ footer {
 }
 **/
 .wave {
-  font-size: 30px;
+  font-size: 40px;
   position: relative; }
   .wave span {
     transform: translate(40px, 20px) rotate(-10deg);
     transform-origin: 50% 50%;
-    left: 50%;
+    left: 47%;
     display: block;
     position: absolute;
-    animation: wave 900ms ease-in-out infinite alternate; }
+    animation: wave 1000ms ease-in-out infinite alternate; }
 
 @keyframes wave {
   0% {
-    transform: translate(0px, 0px) rotate(15deg); }
+    transform: translate(0px, 0px) rotate(10deg); }
   100% {
-    transform: translate(0px, 20px) rotate(-5deg); } }
+    transform: translate(0px, 10px) rotate(-5deg); } }
 
 /*# sourceMappingURL=style.css.map */
