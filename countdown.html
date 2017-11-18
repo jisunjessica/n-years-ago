@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+  <head>
+    <title>벌써 오년 전展</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="fb:app_id" content="1611406575829039" />
+    <meta property="og:url" content="http://n-years-ago.com" />
+    <meta property="og:title" content="벌써 오년 전 5-years-ago" />
+    <meta property="og:description" content="졸업 후 사회 생활 5년차, 전시에 참가하는 10명은 직업과 분야 모두 다르지만, 각자의 자리에서 활발히 활동하는 여성으로서 자신들의 좌표를 끊임없이 질문한다." />
+    <meta property="og:image" content="" />
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+      var countDownDate = new Date("December 13, 2017 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("count").innerHTML = days + "일 " + hours + "시간 "
+      + minutes + "분 " + seconds + "초 ";
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("count").innerHTML = "진행 중";
+      }
+      }, 1000);
+    </script>
+    <style>
+      body {
+       background-color: #5B6584;
+      }
+      div {
+        margin: 35vh 0;
+        text-align: center;
+      }
+      #count {
+        color: #ffffff;
+        font-size: 2em;
+      }
+      .text {
+        color:#ffffff;
+        font-size: 2.8em;
+      }
+      .location {
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+      .countdown.links a {
+        &:hover
+      }
+    </style>
+  </head>
+  <body>
+
+    <div>
+      <p class="text">벌써 오년 전展</p>
+      <p id="count" class="countdown"></p>
+      <p class="location">2017.12.13수 - 18월, 합정 더갤러리 2F</p>
+    </div>
+
+  </body>
+</html>
