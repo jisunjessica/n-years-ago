@@ -1,304 +1,61 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>벌써 사년 전展</title>
-  <meta property="fb:app_id" content="1611406575829039" />
-  <meta property="og:url" content="http://n-years-ago.com" />
-  <meta property="og:title" content="벌써 사년 전 4-years-ago" />
-  <meta property="og:description" content="졸업 후 사회 생활 4년차, 전시에 참가하는 10명은 직업과 분야 모두 다르지만, 각자의 자리에서 활발히 활동하는 여성 디자이너로서 자신들의 좌표를 끊임없이 질문한다." />
-  <meta property="og:image" content="http://jessicajisun.github.io/4-years-ago/img/opengraph_4yrs.jpg" />
-
-  <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <style type="text/css">
-    * {
-        font-family: spoqahansans, Lato, "Noto Sans KR", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    }
-  </style>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-88099584-1', 'auto');
-    ga('send', 'pageview');
-  </script>
-  <script>
-    $(function() {
-      $("a.artist-name").hover(function(){
-        var thumbnail = $('.thumbnail.' + this.className.split(' ')[1])
-        thumbnail.addClass("hover")
-      }, function() {
-        var thumbnail = $('.thumbnail.' + this.className.split(' ')[1])
-        thumbnail.removeClass("hover")
-      });
-    })
-  </script>
-</head>
-
-<body>
-  <nav>
-    <div class="container">
-      <a href="#" id="logo">
-        <h1 class="site-title">
-          <span class="text-bold">벌써 사년 전</span>展
-        </h1>
-      </a>
-      <ul class="nav-menu">
-        <li><a href="#exhibition-info">전시 안내 +</a></li>
-        <li><a href="#group-info">그룹 소개 -</a></li>
-        <li><a href="#artists">참여 작가 =</a></li>
-    </ul>
+  <head>
+    <title>벌써 오년 전展</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="fb:app_id" content="1611406575829039" />
+    <meta property="og:url" content="http://n-years-ago.com" />
+    <meta property="og:title" content="벌써 오년 전 5-years-ago" />
+    <meta property="og:description" content="졸업 후 사회 생활 5년차, 전시에 참가하는 10명은 직업과 분야 모두 다르지만, 각자의 자리에서 활발히 활동하는 여성으로서 자신들의 좌표를 끊임없이 질문한다." />
+    <meta property="og:image" content="" />
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script>
+      var countDownDate = new Date("December 13, 2017 10:00:00").getTime();
+      var x = setInterval(function() {
+      var now = new Date().getTime();
+      var distance = countDownDate - now;
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("count").innerHTML = days + "일 " + hours + "시간 "
+      + minutes + "분 " + seconds + "초 ";
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("count").innerHTML = "진행 중";
+      }
+      }, 1000);
+    </script>
+    <style>
+      body {
+       background-color: #5B6584;
+      }
+      div {
+        margin: 35vh 0;
+        text-align: center;
+      }
+      #count {
+        color: #ffffff;
+        font-size: 2em;
+      }
+      .text {
+        color:#ffffff;
+        font-size: 2.8em;
+      }
+      .location {
+        margin-top: 10px;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p class="text">벌써 오년 전展</p>
+      <p id="count" class="countdown"></p>
+      <p class="location">2017.12.13수 - 18월, 합정 더갤러리 2F</p>
     </div>
-  </nav>
-
-  <section id="main">
-    <div class="container">
-      <div class="poster-text col-sm-83">
-        <a href="#kyh" class="artist-name kyh">강영화</a>는 2년 전 직군을 변경했고 적성과 딱 맞는 일임을 알았다. 그는 덕업일치의 삶을 즐기며 산다.
-        <a href="#kmr" class="artist-name kmr">공미라</a>는 다소 서툴렀지만 발버둥을 친 끝에 나름 만족스럽고 건강한 사회인의 모습을 갖추게 되었다. 안정적인 일상이 행복임을 깨달았다. 그러나 왠지 모르게 알 수 없는 묘한 불안감을 느낀다.
-        <a href="#kgm" class="artist-name kgm">김경미</a>는 시간을 되돌릴 수 있다면 아끼고 또 아끼고 싶다.
-        <a href="#khm" class="artist-name khm">김혜민</a>은 돛을 펼쳤다. 오르락내리락, 예상할 수 없이 난항이, 순항이 되기도 하는 여행에서 방향키를 어디로 잡을 것인지. 스스로를 속이지 않기로 했다.
-        <a href="#pjs" class="artist-name pjs">박지선</a>은 YOLO를 모토로 살기로 했다. 하지만 거기서 달콤함과 씁쓸함이 공존하는 현실을 마주하고 있다. 천천히 조금씩 마음을 가다듬어 보려 한다.
-        <a href="#shj" class="artist-name shj">송현주</a>는 입사한 지 약 4년째 이상과 현실의 사이에서 갈팡질팡 하고 있다. 조금씩 뭔가를 하다 보면 이상에 좀 더 가까워진 삶이 되지 않을까 희망해본다.
-        <a href="#anr" class="artist-name anr">안누리</a>는 부쩍 욕할 일이 많아진 요즘, 난 이 말을 알고나 쓰는 건가 하고 궁금해졌다.
-        <a href="#ljh" class="artist-name ljh">이정현</a>은 준비되지 않은 채 새로운 상황을 맞닥뜨려 어떻게 해야 할지 모르겠다. 그래서 일단 되는 대로 하기로 했다.
-        <a href="#lhs" class="artist-name lhs">이현송</a>은 이것저것 생각만 했던 일들을 구체적으로 해보기로 한다.
-        <a href="#cgy" class="artist-name cgy">조가영</a>은 내년이면 나이의 앞자리 숫자가 바뀐다. 대체 왜? 믿을 수가 없지만 그렇단다. 몇 달 사이 많은 것들이 무너지고 세워져 생각이 참 많이 바뀌었다. 혼란한 마음을 다독이며 기본으로 돌아가 다시 한 걸음씩 걸어보려 한다.
-        <img src="img/thn_kyh.png" class="thumbnail kyh"/>
-        <img src="img/thn_kmr.jpg" class="thumbnail kmr"/>
-        <img src="img/thn_kgm.png" class="thumbnail kgm"/>
-        <img src="img/thn_khm.png" class="thumbnail khm"/>
-        <img src="img/thn_jisun_01.png" class="thumbnail pjs"/>
-        <img src="img/thn_shj.jpg" class="thumbnail shj"/>
-        <img src="img/thn_anr.png" class="thumbnail anr"/>
-        <img src="img/thn_ljh.jpg" class="thumbnail ljh"/>
-        <img src="img/thn_lhs.png" class="thumbnail lhs"/>
-        <img src="img/thn_cgy.jpg" class="thumbnail cgy"/>
-      </div>
-    </div>
-  </section>
-  <div class="hr"></div>
-  <section id="exhibition-info">
-    <div class="container">
-      <h2 class="section-title">전시 안내</h2>
-      <div class="exhibition-intro col-sm-83">
-        <p>
-          전시 <span class="text-bold">벌써 사년 전</span>이 서교동 더갤러리에서 12월 1일부터 6일까지 열린다. 2013년부터 네 번째로 열리는 이 전시는 2012년 시각디자인전공 졸업전시를 함께 한 디자인과 졸업생들이 매년 말 모여 만드는 전시이다. 졸업 후 사회생활 4년 차, 전시에 참여하는 10명은 직업과 분야 모두 다르지만, 각자의 자리에서 활발히 활동하는 여성으로서 자신들의 좌표를 끊임없이 질문한다.
-        </p>
-        <p>
-          일 년에 한 번 전시를 함께 연다는 것 외에는 연결고리를 찾기 힘든 이들이 4년째 함께 전시하고 있다는 것은, 그만큼 이 전시가 각자가 걸어가고 있는 길에 대한 중간 점검,
-          나아가 미래의 역할에 대해 고민하는 스스로에게 어렴풋이나마 직접 만들어 낸 답을 내보이는 자리였기 때문일 것이다. 10명의 여성의 서로 다른 이야기가 같은 고민을 하는 이들에게 실마리가 되기를 바란다.
-        </p>
-      </div>
-      <div class="exhibition-info-detail row col-sm-83">
-        <div class="col-xs-12 col-sm-4">
-          <div class="col-xs-12 row">
-            <h6 class="exhibition-info-title">THE GALLERY</h6>
-            <p class="info-detail">서울시 마포구 서교동 367-13<br>땡스북스 건물 2F</p>
-          </div>
-          <div class="col-xs-12 row">
-            <h6 class="exhibition-info-title">2016.12.1목 - 12.6화</h6>
-            <p class="info-detail">월-토 12-8PM / 일 12-6PM<br><span class="text-primary">연계 토크 12월 4일 오후 4시</span><br><a href="https://goo.gl/forms/LoILtuxLpGo1Zert1" class="link text-bold">연계 토크 참가 신청하기</a></p>
-
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-8">
-          <div id="map" style="height: 400px;"></div>
-          <script>
-            function initMap() {
-              var uluru = {lat: 37.551127, lng: 126.920176};
-              var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 18,
-                center: uluru,
-                zoomControl: false,
-                scaleControl: false,
-                scrollwheel: false,
-                disableDoubleClickZoom: true,
-              });
-              var marker = new google.maps.Marker({
-                position: uluru,
-                map: map
-              });
-            }
-          </script>
-          <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBV1XOQkoGuEYe4gXmWfTWfqUzn2EIG5rE&callback=initMap">
-          </script>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="hr"></div>
-  <section id="group-info">
-    <div class="container">
-      <h2 class="section-title">벌써 N년 전 소개</h2>
-      <div class="group-intro col-sm-83">
-        <ul class="group-info-text">
-          <li>‘벌써 N년 전’은 2012년에 시각디자인전공 졸업전시를 치른 사람들이 모여 여는, 지나온 N년에 대한 결산이자 각자가 걸어가고 있는 길에 대한 중간점검이다.</li>
-          <li>사회생활 N년 차. 현재와 미래가 직교하는 사분면 위에서 각자의 좌표를 재확인하고자 한다</li>
-          <li>이 전시는 매년 새로운 구성원으로 이루어진다.</li>
-          <li>이 전시는 그래픽 디자인에 국한되지 않은 형태로 구성원 각자의 관심사를 드러낸다.</li>
-          <li>이 전시의 구성원은 각자 다양한 분야에서 일한다.</li>
-          <li>전시를 4년째 이어오고 있다.</li>
-          <li>졸업 후 4년째, 각자의 분야에서 활동하는 열 명의 여성이 만드는 전시이다.</li>
-          <li>대한민국 서울, 성남, 안양, 그리고 영국 런던에 거주하는 사람들이 꾸리는 전시이다.</li>
-          <li>이 전시에 참여하는 인원은 총 10명이다.</li>
-          <li>일단 참가비를 내버렸기 때문에 작업을 해야 한다.</li>
-          <li>작업은 평소에 느긋하게 하는 대신, 마감일로부터 역산해 최소한의 시간 동안 최대한의 노력을 투입해 진행한다.</li>
-          <li>2012년에 졸업 전시를 했다면 누구나 전시에 참여할 수 있다!</li>
-          <li>참여가 쉽다는 점이 장점이자 단점이다.</li>
-          <li>4년 동안 각자 자신의 변화와 나아가야 할 미래의 방향에 대한 고민을 공유해 왔다.</li>
-          <li>전시 한 달이 남은 시점에서부터 '아, 내가 왜 한다고 했지'라는 생각을 하기 시작한다.</li>
-          <li>그러나 이듬해가 되면 '우리 올해도 전시해야지?'라는 말을 하게 된다</li>
-          <li>김소미는 '벌써 사년 전'에 참여하는 것도 안 하는 것도 아니지만, 참여한다.</li>
-          <li>이 전시는 4년 동안 총 31명의 사람이 거쳐 갔다.</li>
-          <li>시각디자인학과를 졸업한 이들이 2016년을 살아가는 모습이다.</li>
-          <li>일 년 중 일을 위한 작업이 아닌 나를 위한 작업을 하는 데에 의의가 있으며 나름대로 위로가 된다.</li>
-          <li>벌써 N년 전에 영향을 받은 전시, 별개의 별것이 생겼다.</li>
-          <li>사회에서 요구하는 '업무'에 휘둘려 닳아 없어지지 않겠다는 의지로 만드는 전시이다.</li>
-          <li>직장생활을 하는 사람도 있고, 아닌 사람도 있다.</li>
-          <li>구성원들은 전시가 아니면 만날 일이 없는 조합이다.</li>
-          <li>내 목소리를 담은 작업을 가까운 거리에서 공유할 수 있는 곳이다.</li>
-          <li>지금껏 해왔던, 그리고 앞으로 할 작업에 대한 태도와 의미를 다시 생각하는 자리이다.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <div class="hr"></div>
-  <section id="artists">
-    <div class="container">
-      <h2 class="section-title">작가 소개</h2>
-      <div class="artists-detail col-sm-83">
-        <div class="one-artist row" id="kyh">
-          <div class="col-sm-4">
-            <h4>강영화</h4>
-            <p><a href="mailto:youngkang.design@gmail.com" class="link">youngkang.design@gmail.com</a></p>
-            <p><a href="http://youngkang.me" target="_blank" class="link">youngkang.me</a></p>
-          </div>
-          <div class="col-sm-8">
-            <h4 class="artwork-title">한글 웹폰트 글꼴보기집</h4>
-            <p>&ldquo;한글 웹폰트 글꼴보기집&rdquo;은 한글 본문용 글꼴 미리보기 웹 페이지이다. 다양한 글꼴을 소개하며, 글꼴의 다운로드 링크와 라이선스 정보, 미리보기를 제공한다.  또한, 글꼴이 각 디바이스에 렌더링 된 예시를 이미지 파일과 함께 제공한다. 이 도구가 다양한 환경에서의 한글 웹 타이포그래피를 다루는 디자이너와 개발자에게 도움이 되길 바란다.</p>
-          </div>
-        </div>
-        <div class="one-artist row" id="kmr">
-          <div class="col-sm-4">
-            <h4>공미라</h4>
-            <p><a href="mailto:mirakong729@naver.com" class="link">mirakong729@naver.com</a></p>
-            <p><a href="http://mirakkong.com" target="_blank" class="link">mirakkong.com</a></p>
-          </div>
-          <div class="col-sm-8">
-            <h4 class="artwork-title">해선 안 된다.</h4>
-            <p>현재의 내 자리에서, 해서는 안 되는 것이 너무 많다. 설상가상으로, 하면 안 되는 것들이 점차 늘어간다. 순수한 마음으로 발이라도 한번 담가볼까, 맛이라도 한번 볼까했다간 돌아올 수 없는 소용돌이에 휘말리게 된다. 이러려고 어른이 되었나 싶지만, 책임져야할 것들이 많기 때문에 함부로 행동할 수 없음이 슬프다. 청개구리 심리처럼, 하지 말라는 것이 더 하고 싶은 요즘, 내 마음이 불명확하고 혼란스럽다.</p>
-          </div>
-        </div>
-        <div class="one-artist row" id="kgm">
-          <div class="col-sm-4">
-            <h4>김경미</h4>
-            <p><a href="mailto:sloveue526@gmail.com" class="link">sloveue526@gmail.com</a></p>
-            <p><a href="http://design-recipe.com/" target="_blank" class="link">design-recipe.com</a></p>
-          </div>
-          <div class="col-sm-8">
-            <h4 class="artwork-title">아무것도 생각하기 싫어서 툭툭 내뱉는 듯 끄적여보지만 결국은 생각을 그리게되었네.</h4>
-            <p>아무것도 생각하기 싫어서 툭툭 내뱉는 듯 끄적여보지만 결국은 생각을 그리게되었네.</p>
-          </div>
-        </div>
-        <div class="one-artist row" id="khm">
-          <div class="col-sm-4">
-            <h4>김혜민</h4>
-            <p><a href="mailto:heamin.hm.kim@gmail.com" class="link">heamin.hm.kim@gmail.com</a></p>
-          </div>
-          <div class="col-sm-8">
-            <h4 class="artwork-title">Beyond The Language by space-dalpang</h4>
-            <p>텍스트를 시각언어로 변환하는 디지털 미디어. 언어를 의미와 성향을 분석해 비주얼 언어로 프로그래밍 했을때, 의미가 강화되기도, 모순되기도 한다. 텍스트의 조합이 각각 다른 유일한 시각언어를 만들어낸다. 김혜민, 배선욱, 이희원 만듬</p>
-          </div>
-        </div>
-        <div class="one-artist row" id="pjs">
-          <div class="col-sm-4">
-            <h4>박지선</h4>
-            <p><a href="mailto:jisun89park@gmail.com" class="link">jisun89park@gmail.com</a></p>
-            <p><a href="http://jisunpark.kr/" target="_blank" class="link">jisunpark.kr</a></p>
-          </div>
-          <div class="col-sm-8">
-            <h4 class="artwork-title">벌써 사년 전展 포스터와 웹사이트</h4>
-            <p>4년 전과 현재의 우리는 어떻게 변했을까? 그리고 이 전시가 앞으로 나아가야 하는 방향성은 무엇일까? 이 질문에 대한 고민의 과정과 나름의 답을 포스터(A컷 1종, B컷의 재구성 2종)와 웹사이트 <a href="http://n-years-ago.com" target="_blank" class="link">n-years-ago.com</a>로 선보인다.
-          </div>
-        </div>
-        <div class="one-artist row" id="shj">
-          <div class="col-sm-4">
-            <h4>송현주</h4>
-            <p><a href="mailto:rheosothis@naver.com" class="link">rheosothis@naver.com</a></p>
-          </div>
-          <div class="col-sm-8">
-            <h4 class="artwork-title">Elphie & Reve's Trip</h4>
-            <p>하고 싶은 것이 많지만 실행하기엔 게으른 소녀 Elphie와 소녀의 꿈 속에서 소녀가 이루고 싶었던 것들을 이룰 수 있도록 데려가주는 솜인형 Reve. 그들이 만들어가는 버킷리스트 여행 이야기의 시작을 다룬 포스터.</p>
-          </div>
-        </div>
-        <div class="one-artist row" id="anr">
-          <div class="col-sm-4">
-            <h4>안누리</h4>
-            <p><a href="mailto:nury6464@gmail.com" class="link">nury6464@gmail.com</a></p>
-          </div>
-          <div class="col-sm-8">
-            <h4 class="artwork-title">뭐래ㅋ</h4>
-            <p>뭐래ㅋ</p>
-          </div>
-        </div>
-        <div class="one-artist row" id="ljh">
-          <div class="col-sm-4">
-            <h4>이정현</h4>
-            <p><a href="mailto:hyun890424@gmail.com" class="link">hyun890424@gmail.com</a></p>
-          </div>
-          <div class="col-sm-8">
-            <h4 class="artwork-title">비버야, 집 다 지었니?</h4>
-            <p>비버는 내 집 마련의 꿈을 꾸었어.</p>
-          </div>
-        </div>
-        <div class="one-artist row" id="lhs">
-          <div class="col-sm-4">
-            <h4>이현송</h4>
-            <p><a href="mailto:hslee@hslee.kr" class="link">hslee@hslee.kr</a></p>
-            <p><a href="http://hslee.kr" target="_blank" class="link">hslee.kr</a></p>
-          </div>
-          <div class="col-sm-8">
-            <h4 class="artwork-title">손바닥 책 : 웹 타이포그래피 - basic ( ) 000</h4>
-            <p>2017년 3월에 발간될 «손바닥 책 : 웹 타이포그래피»중 기본적인 코딩 용어에 대한 부분인 «basic ( ) 000»을 디자인한 손바닥만한 책자와 포스터.</p>
-          </div>
-        </div>
-        <div class="one-artist row" id="cgy">
-          <div class="col-sm-4">
-            <h4>조가영</h4>
-            <p><a href="mailto:joga_work@naver.com" class="link">joga_work@naver.com</a></p>
-            <p><a href="http://jogayoung.com" target="_blank" class="link">jogayoung.com</a></p>
-          </div>
-          <div class="col-sm-8">
-            <h4 class="artwork-title">토끼펭펭</h4>
-            <p>사랑도 많고 화도 많은 토끼 펭펭의 이야기. 말 그대로 다사다난했던 2016년. 끊임없이 터지는 사건사고들. 남여문제, 혐오감정, 다시 떠오르는 세월호, 지금도 들썩한 정치계의 비리까지. 그 속에 살아가는 나의 생각들을 토끼펭펭을 빌어 조심스럽게 그려보았다.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <div class="container">
-      <div class="row">
-      <p class="col-xs-6 copyright-text">
-        &copy; 2016 <a href="http://jisunpark.kr" target="_blank" class="link"><span class="text-bold">Jisun park</span></a>
-      </p>
-      <p class="col-xs-6 text-right tex-bold">
-        <a href="https://www.facebook.com/already4years/" target="_blank" class="link">Facebook</a> /
-        <a href="https://www.instagram.com/n.years.ago/" target="_blank" class="link">Instagram</a>
-      </p>
-      </div>
-    </div>
-  </footer>
-</body>
-
+  </body>
 </html>
