@@ -4101,6 +4101,10 @@ footer {
 @media screen and (max-width: 767px) {
   div {
     overflow-x: hidden; }
+    div.wave {
+      overflow-x: visible;
+      position: fixed;
+      bottom: 110px; }
 
   #artists h4 {
     margin-bottom: 2px; }
