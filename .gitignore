@@ -6,3 +6,4 @@ _site/*.css.map
 *.css.map
 .sass-cache/
 .jekyll-metadata
+*.min.js.map
