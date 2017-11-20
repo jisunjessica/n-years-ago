@@ -3827,7 +3827,7 @@ section.bg-img {
   section.bg-img.main {
     padding-top: 160px;
     text-align: center;
-    background: url("/img/2.jpg") no-repeat;
+    background: url("/img/bg-poster2.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3862,7 +3862,7 @@ section.bg-img {
     background-size: cover;
     background-position: center center; }
   section.bg-img.eunji {
-    background: url("/img/1.jpg") no-repeat;
+    background: url("/img/bg-eunji.jpeg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
