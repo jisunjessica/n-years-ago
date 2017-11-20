@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Liquid Distortion Effects | Demo 5 | Codrops</title>
+		<meta name="description" content="Some liquid distortion effects applied to an image slideshow using canvas, PixiJS and Greensock" />
+		<meta name="keywords" content="web development, canvas, distortion, liquid, effect, slideshow, javascript" />
+		<meta name="author" content="Yannis Yannakopoulos for Codrops" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body class="demo-5 loading">
+		<main class="site-wrapper">
+			<div class="content content--fixed">
+			</div>
+			<div class="content">
+			</div>
+		</main>
+		<script src="js/demo.js"></script>
+		<script src="js/pixi.min.js"></script>
+		<script src="js/TweenMax.min.js"></script>
+		<script src="js/main5.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script>
+			imagesLoaded(document.body, () => document.body.classList.remove('loading'));
+
+			var spriteImages = document.querySelectorAll( '.slide-item__image' );
+			var spriteImagesSrc = [];
+			var texts = [];
+
+			for ( var i = 0; i < spriteImages.length; i++ ) {
+				var img = spriteImages[i];
+				// Set the texts you want to display to each slide
+				// in a sibling element of your image and edit accordingly
+				if ( img.nextElementSibling ) {
+					texts.push(img.nextElementSibling.innerHTML);
+				} else {
+					texts.push('');
+				}
+				spriteImagesSrc.push( img.getAttribute('src' ) );
+			}
+
+			var initCanvasSlideshow = new CanvasSlideshow({
+				sprites: spriteImagesSrc,
+				displacementImage: 'img/dmaps/2048x2048/clouds.jpg',
+				autoPlay: true,
+				autoPlaySpeed: [4, 3],
+				displaceScale: [5000, 10000],
+				interactive: true,
+				interactionEvent: 'click', // 'click', 'hover', 'both'
+				displaceAutoFit: false,
+				dispatchPointerOver: true // restarts pointerover event after click
+			});
+		</script>
+	</body>
+</html>
