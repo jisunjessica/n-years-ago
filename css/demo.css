@@ -10,11 +10,9 @@ html {
 
 body {
 	height: 100vh;
-	overflow: hidden;
+	overflow: scroll;
 	color: #fff;
-	color: var(--color-text);
 	background-color: #000;
-	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
