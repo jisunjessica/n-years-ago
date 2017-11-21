@@ -4,10 +4,6 @@
 	box-sizing: border-box;
 }
 
-html {
-	background: #000;
-}
-
 body {
 	height: 100vh;
 	overflow: scroll;
@@ -93,15 +89,6 @@ body {
 main {
 	position: relative;
 	width: 100%;
-}
-
-.content {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	margin: 0 auto;
 }
 
 .content--fixed {
