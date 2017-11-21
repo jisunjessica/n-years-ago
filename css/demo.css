@@ -107,7 +107,7 @@ main {
 }
 
 .content--fixed {
-	position: fixed;
+	position: inherit; /* fixed */
 	z-index: 1;
 	top: 0;
 	left: 0;
@@ -127,7 +127,9 @@ main {
 
 .content--fixed a {
 	pointer-events: auto;
+	font-weight: 500;
 }
+
 
 /* Header */
 

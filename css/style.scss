@@ -305,15 +305,6 @@ nav {
     @media only screen and (max-width: $sm-screen) {
       font-size: 18px;
     }
-    // .btn-line {
-    //   border-radius: 0;
-    //   color: $white;
-    //   padding: 14px 34px;
-    //   border: 2px solid $white;
-    //   &:hover {
-    //     background-color: rgba($white, 0.5);
-    //   }
-    // }
   }
 
 }
@@ -452,4 +443,12 @@ footer {
 	100% {
 		transform: translate(0px, 10px) rotate(-5deg);
 	}
+}
+
+canvas {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
 }
