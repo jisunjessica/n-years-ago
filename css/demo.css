@@ -20,41 +20,6 @@ body {
 }
 
 /* Color schemes */
-.demo-1 {
-	--color-text: #fff;
-	--color-bg: #000;
-	--color-link: #8fe8ff;
-	--color-link-hover: #fff;
-	--color-info: #72af3a;
-	--color-nav: #fff;
-}
-
-.demo-2 {
-	--color-text: #fff;
-    --color-bg: #000;
-    --color-link: #9cf9db;
-    --color-link-hover: #fff;
-    --color-info: #f3a145;
-    --color-nav: #fff;
-}
-
-.demo-3 {
-	--color-text: #fff;
-	--color-bg: #a9b1b7;
-	--color-link: #201b18;
-	--color-link-hover: #224d94;
-	--color-info: #fff473;
-	--color-nav: #fff;
-}
-
-.demo-4 {
-	--color-text: #81838c;
-    --color-bg: #000;
-    --color-link: #96e23e;
-    --color-link-hover: #fff;
-    --color-info: #ea7836;
-    --color-nav: #fff;
-}
 
 .demo-5 {
     --color-text: #fff;
@@ -79,7 +44,7 @@ body {
 .js .loading::before {
 	content: '';
 	position: fixed;
-	z-index: 100000;
+	z-index: 0;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -90,7 +55,7 @@ body {
 .js .loading::after {
 	content: '';
 	position: fixed;
-	z-index: 100000;
+	z-index: 0;
 	top: 50%;
 	left: 50%;
 	width: 60px;
@@ -110,19 +75,6 @@ body {
 	}
 }
 
-a {
-	text-decoration: none;
-	color: #5d93d8;
-	color: var(--color-link);
-	outline: none;
-}
-
-a:hover,
-a:focus {
-	color: #423c2b;
-	color: var(--color-link-hover);
-	outline: none;
-}
 
 .hidden {
 	position: absolute;
@@ -132,15 +84,6 @@ a:focus {
 	pointer-events: none;
 }
 
-.message {
-	background: var(--color-text);
-	color: var(--color-bg);
-	text-align: center;
-	padding: 1em;
-	display: none;
-	position: relative;
-	z-index: 100;
-}
 
 /* Icons */
 .icon {
@@ -167,7 +110,7 @@ main {
 
 .content--fixed {
 	position: fixed;
-	z-index: 10000;
+	z-index: 1;
 	top: 0;
 	left: 0;
 	display: grid;
@@ -177,11 +120,11 @@ main {
 	height: 100vh;
 	padding: 1.5em;
 	pointer-events: none;
-	grid-template-columns: 50% 50%;
+	/*grid-template-columns: 50% 50%;
 	grid-template-rows: auto auto 4em;
 	grid-template-areas: 'header ...'
 	'... ...'
-	'github demos';
+	'github demos';*/
 }
 
 .content--fixed a {
@@ -189,38 +132,6 @@ main {
 }
 
 /* Header */
-.codrops-header {
-	position: relative;
-	z-index: 100;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	align-items: center;
-	align-self: start;
-	grid-area: header;
-	justify-self: start;
-}
-
-.codrops-header__title {
-	font-size: 1em;
-	font-weight: bold;
-	margin: 0;
-	padding: 0.75em 0;
-}
-
-.info {
-	margin: 0 0 0 1.25em;
-	font-style: italic;
-	color: var(--color-info);
-	font-weight: bold;
-}
-
-.github {
-	display: block;
-	align-self: end;
-	grid-area: github;
-	justify-self: start;
-}
 
 .demos {
 	position: relative;
@@ -253,84 +164,15 @@ a.demo--current {
 	pointer-events: none;
 }
 
-/* Top Navigation Style */
-.codrops-links {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	margin: 0 1em 0 0;
-	text-align: center;
-	white-space: nowrap;
-}
 
-.codrops-icon {
-	display: inline-block;
-	margin: 0.15em;
-	padding: 0.25em;
-}
-
-.scene {
-	position: fixed;
-	top: 0;
+/* component.css */
+canvas {
+	display: block;
+	position: absolute;
 	left: 0;
-	width: 100%;
-	height: 100vh;
-	pointer-events: none;
-	z-index: 1;
+	top: 0;
 }
 
-@media screen and (min-width: 55em) {
-	.demos {
-		display: flex;
-		justify-self: end;
-	}
-	.demo {
-		display: block;
-		width: 17px;
-		height: 17px;
-		margin: 0 4px;
-		border-radius: 50%;
-		background: var(--color-link);
-	}
-	a.demo--current {
-		background: var(--color-link-hover);
-	}
-	.demo span {
-		position: absolute;
-		line-height: 1;
-		right: 100%;
-		display: none;
-		margin: 0 1em 0 0;
-	}
-	.demo--current span {
-		display: block;
-	}
-}
-
-@media screen and (max-width: 55em) {
-	.message {
-		display: block;
-	}
-	.content--fixed {
-		position: relative;
-		z-index: 1000;
-		display: block;
-		padding: 0.85em;
-	}
-	.codrops-header {
-		flex-direction: column;
-		align-items: center;
-	}
-	.codrops-header__title {
-		font-weight: bold;
-		padding-bottom: 0.25em;
-		text-align: center;
-	}
-	.github {
-		display: block;
-		margin: 1em auto;
-	}
-	.codrops-links {
-		margin: 0;
-	}
+.slide-wrapper {
+	display: none;
 }
