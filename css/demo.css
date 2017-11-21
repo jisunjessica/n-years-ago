@@ -12,14 +12,14 @@ body {
 	height: 100vh;
 	overflow: scroll;
 	color: #fff;
-	background-color: #000;
+	background-color: #5B6584;
 }
 
 /* Color schemes */
 
 .demo-5 {
     --color-text: #fff;
-    --color-bg: #000;
+    --color-bg: #5B6584;
     --color-link: #fff;
     --color-link-hover: #2a3cbb;
     --color-info: #f7fb40;
