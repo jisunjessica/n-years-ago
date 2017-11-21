@@ -129,40 +129,6 @@ main {
 }
 
 
-/* Header */
-
-.demos {
-	position: relative;
-	display: block;
-	align-self: end;
-	text-align: center;
-	grid-area: demos;
-}
-
-.demo {
-	margin: 0 0 0 0.15em;
-}
-
-.demo:hover,
-.demo:focus {
-	opacity: 0.5;
-}
-
-.demo span {
-	white-space: nowrap;
-	text-transform: lowercase;
-	pointer-events: none;
-}
-
-.demo span::before {
-	content: '#';
-}
-
-a.demo--current {
-	pointer-events: none;
-}
-
-
 /* component.css */
 canvas {
 	display: block;
