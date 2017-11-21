@@ -13,8 +13,6 @@ body {
 	overflow: scroll;
 	color: #fff;
 	background-color: #000;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
 }
 
 /* Color schemes */
