@@ -1,50 +1,81 @@
 <!DOCTYPE html>
-<head>
-  <title>벌써 오년 전展</title>
-  {% include meta.html %}
+<html>
+	<head>
+		<title>벌써 오년 전展</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body class="loading">
+		<main class="site-wrapper">
+			<div class="container content--fixed">
+				<nav>
+			    <a href="#" class="site-title">
+			      벌써 오년 전展
+			    </a>
+			    <ul class="nav-menu">
+			      <li><a href="#group-info">그룹 소개</a></li>
+			      <li><a href="">토크 신청</a></li>
+			    </ul>
+			  </nav>
+				<div class="col-xs-12 text-center">
+					<div class="type-js">
+						<h1 class="text-js hero-title">The 5th wave</h1>
+						<h1 class="hero-title">we’re getting through</h1>
+					</div>
+					<p class="exhibition-info sans">
+						2017.12.11월 - 17일 <br class="adhoc-br">서교동 더갤러리 2F
+					</p>
+					<a href="#" class="btn btn-line sans">토크 참여 신청</a>
+					<div class="wave">
+						<span class="ship">⛵️</span>
+					</div>
+				</div>
+			</div>
+			<div class="slide-wrapper">
+				<div class="slide-item">
+					<img src="img/bg-poster2.jpg" class="slide-item__image">
+				</div>
+			</div>
+		</main>
 
-  <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href='//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="js/typing-effect.js"></script>
-  <script>
-    $(document).ready(function(){
-      autoType(".type-js",100);
-    });
-  </script>
-</head>
+		<script src="js/demo.js"></script>
+		<script src="js/pixi.min.js"></script>
+		<script src="js/main5.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script>
+			imagesLoaded(document.body, () => document.body.classList.remove('loading'));
 
-<body>
-  <nav>
-    <a href="#" class="site-title">
-      벌써 오년 전展
-    </a>
-    <ul class="nav-menu">
-      <li><a href="#group-info">그룹 소개</a></li>
-      <li><a href="">토크 신청</a></li>
-    </ul>
-  </nav>
+			var spriteImages = document.querySelectorAll( '.slide-item__image' );
+			var spriteImagesSrc = [];
+			var texts = [];
 
-  <section class="bg-img main">
-      <div class="container row">
-        <div class="col-xs-12">
-          <div class="type-js">
-            <h1 class="text-js hero-title">The 5th wave</h1>
-            <h1 class="hero-title">we’re getting through</h1>
-          </div>
-          <p class="exhibition-info sans">
-            2017.12.11월 - 17일 <br class="adhoc-br">서교동 더갤러리 2F
-          </p>
-          <a href="#" class="btn btn-line sans">토크 참여 신청</a>
-          <div class="wave">
-            <span class="ship">⛵️</span>
-          </div>
-        </div>
-      </div>
-  </section>
+			for ( var i = 0; i < spriteImages.length; i++ ) {
+				var img = spriteImages[i];
+				// Set the texts you want to display to each slide
+				// in a sibling element of your image and edit accordingly
+				if ( img.nextElementSibling ) {
+					texts.push(img.nextElementSibling.innerHTML);
+				} else {
+					texts.push('');
+				}
+				spriteImagesSrc.push( img.getAttribute('src' ) );
+			}
+
+			var initCanvasSlideshow = new CanvasSlideshow({
+				sprites: spriteImagesSrc,
+				displacementImage: 'img/dmaps/2048x2048/clouds.jpg',
+				autoPlay: true,
+				autoPlaySpeed: [4, 3],
+				displaceScale: [5000, 10000],
+				interactive: true,
+				interactionEvent: 'click', // 'click', 'hover', 'both'
+				displaceAutoFit: false,
+				dispatchPointerOver: true // restarts pointerover event after click
+			});
+		</script>
+
 
   {{ content }}
 
@@ -55,12 +86,12 @@
         &copy; 2017 <a href="http://jisunpark.kr" target="_blank" class="link"><span class="text-bold">Jisun park</span></a>
       </p>
       <p class="col-xs-6 text-right text-bold">
-        <a href="https://www.facebook.com/already4years/" target="_blank" class="link">Facebook</a> /
+        <a href="https://www.facebook.com/already5years/" target="_blank" class="link">Facebook</a> /
         <a href="https://www.instagram.com/n.years.ago/" target="_blank" class="link">Instagram</a>
       </p>
       </div>
     </div>
   </footer>
-</body>
+ </body>
 
 </html>
