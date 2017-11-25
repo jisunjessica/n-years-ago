@@ -132,13 +132,23 @@ section.bg-img {
     background-position: center center;
   }
   &.keongmi {
-    background: url('/img/1.jpg') no-repeat;
+    background: url('/img/bg-kyungmi.jpg') no-repeat;
     background-color: $primary-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
+
+    .section-title,
+    h4,
+    p {
+      color: $dark-grey;
+    }
+    a {
+      border: 1px solid $dark-grey;
+      color: $dark-grey;
+    }
   }
   &.jisun {
     background: url('/img/bg-jisun.jpg') no-repeat;
@@ -166,12 +176,22 @@ section.bg-img {
     background-position: center center;
   }
   &.gayoung {
-    background: url('/img/2.jpg') no-repeat;
+    background: url('/img/bg-gayoung.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
+
+    .section-title,
+    h4,
+    p {
+      color: $dark-grey;
+    }
+    a {
+      border: 1px solid $dark-grey;
+      color: $dark-grey;
+    }
   }
   &.miso {
     background: url('') no-repeat;
@@ -192,12 +212,13 @@ section.bg-img {
     background-position: center center;
   }
   &.heewon {
-    background: url('/img/bg_heewon.jpg') no-repeat;
+    background: url('/img/bg-heewon.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
+
     .section-title,
     h4,
     p {
@@ -287,6 +308,11 @@ nav {
   width: 100%;
   background-color: transparent;
 
+  .site-title,
+  .nav-menu li a {
+    text-shadow: 1px 1px #000000;
+  }
+
   .site-title {
     font-size: 20px;
     display: inline-block;
@@ -308,6 +334,7 @@ nav {
     font-weight: 500;
     padding: 2px 8px;
 
+
     -webkit-transition: background-color .20s ease-out;
     -moz-transition: background-color .20s ease-out;
     -o-transition: background-color .20s ease-out;
@@ -316,6 +343,7 @@ nav {
     &:hover {
       color: $dark-grey;
       background-color: rgba($white, 0.6);
+      text-shadow: none;
     }
     @media only screen and (max-width: $sm-screen) {
       font-size: 18px;

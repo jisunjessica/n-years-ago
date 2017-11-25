@@ -3850,13 +3850,20 @@ section.bg-img {
     background-size: cover;
     background-position: center center; }
   section.bg-img.keongmi {
-    background: url("/img/1.jpg") no-repeat;
+    background: url("/img/bg-kyungmi.jpg") no-repeat;
     background-color: #5B6584;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
+    section.bg-img.keongmi .section-title,
+    section.bg-img.keongmi h4,
+    section.bg-img.keongmi p {
+      color: #333; }
+    section.bg-img.keongmi a {
+      border: 1px solid #333;
+      color: #333; }
   section.bg-img.jisun {
     background: url("/img/bg-jisun.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -3880,12 +3887,19 @@ section.bg-img {
     background-size: cover;
     background-position: center center; }
   section.bg-img.gayoung {
-    background: url("/img/2.jpg") no-repeat;
+    background: url("/img/bg-gayoung.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
+    section.bg-img.gayoung .section-title,
+    section.bg-img.gayoung h4,
+    section.bg-img.gayoung p {
+      color: #333; }
+    section.bg-img.gayoung a {
+      border: 1px solid #333;
+      color: #333; }
   section.bg-img.miso {
     background: url("") no-repeat;
     background-color: #5B6584;
@@ -3903,7 +3917,7 @@ section.bg-img {
     background-size: cover;
     background-position: center center; }
   section.bg-img.heewon {
-    background: url("/img/bg_heewon.jpg") no-repeat;
+    background: url("/img/bg-heewon.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3983,6 +3997,9 @@ nav {
   display: inline-block;
   width: 100%;
   background-color: transparent; }
+  nav .site-title,
+  nav .nav-menu li a {
+    text-shadow: 1px 1px #000000; }
   nav .site-title {
     font-size: 20px;
     display: inline-block;
@@ -4006,7 +4023,8 @@ nav {
     transition: background-color .20s ease-out; }
     nav .nav-menu li a:hover {
       color: #333;
-      background-color: rgba(255, 255, 255, 0.6); }
+      background-color: rgba(255, 255, 255, 0.6);
+      text-shadow: none; }
     @media only screen and (max-width: 500px) {
       nav .nav-menu li a {
         font-size: 18px; } }
