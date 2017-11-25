@@ -8,7 +8,7 @@
 @import "hover";
 
 $white: #fff;
-$primary-color: #5B6584;
+$primary-color: #586F90;
 $poster-txt: $white;
 $dark-grey: #333;
 $grey-25: #d0d0d0;
@@ -338,6 +338,15 @@ MAIN
   }
 }
 
+p.introduction {
+  margin-bottom: 30px;
+  line-height: 1.9em;
+  word-break: keep-all;
+}
+
+ul.exhibition-detail-info li {
+  line-height: 1.9em;
+}
 /********************************************
 ARTISTS
 ********************************************/

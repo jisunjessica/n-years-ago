@@ -3782,7 +3782,7 @@ GENERAL
   text-align: right; }
 
 .text-primary {
-  color: #5B6584; }
+  color: #586F90; }
 
 .container {
   max-width: 740px;
@@ -3794,7 +3794,7 @@ a {
   color: #fff;
   transition: 0.2s ease; }
   a:hover {
-    color: #5B6584; }
+    color: #586F90; }
 
 .adhoc-br {
   display: none; }
@@ -3809,7 +3809,7 @@ ol li, ul li {
   line-height: 1.6em; }
 
 section {
-  background-color: #5B6584;
+  background-color: #586F90;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 40px;
@@ -3819,7 +3819,7 @@ section {
 section.bg-img {
   padding-top: 140px;
   padding-bottom: 140px;
-  background-color: #5B6584; }
+  background-color: #586F90; }
   @media only screen and (max-width: 500px) {
     section.bg-img {
       padding-top: 90px;
@@ -3843,7 +3843,7 @@ section.bg-img {
     background-position: center center; }
   section.bg-img.hyemin {
     background: url("") no-repeat;
-    background-color: #5B6584;
+    background-color: #586F90;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3851,7 +3851,7 @@ section.bg-img {
     background-position: center center; }
   section.bg-img.keongmi {
     background: url("/img/1.jpg") no-repeat;
-    background-color: #5B6584;
+    background-color: #586F90;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3873,7 +3873,7 @@ section.bg-img {
     background-position: center center; }
   section.bg-img.somi {
     background: url("") no-repeat;
-    background-color: #5B6584;
+    background-color: #586F90;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3888,7 +3888,7 @@ section.bg-img {
     background-position: center center; }
   section.bg-img.miso {
     background: url("") no-repeat;
-    background-color: #5B6584;
+    background-color: #586F90;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3896,7 +3896,7 @@ section.bg-img {
     background-position: center center; }
   section.bg-img.youngbin {
     background: url("") no-repeat;
-    background-color: #5B6584;
+    background-color: #586F90;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3938,7 +3938,7 @@ h1.text-js.hero-title {
 .hr {
   width: 100%;
   height: 1px;
-  background-color: #5B6584; }
+  background-color: #586F90; }
 
 .btn {
   display: inline-block;
@@ -4022,6 +4022,14 @@ MAIN
     .exhibition-info {
       font-size: 20px; } }
 
+p.introduction {
+  margin-bottom: 30px;
+  line-height: 1.9em;
+  word-break: keep-all; }
+
+ul.exhibition-detail-info li {
+  line-height: 1.9em; }
+
 /********************************************
 ARTISTS
 ********************************************/
@@ -4072,9 +4080,9 @@ footer {
   padding-top: 20px;
   padding-bottom: 20px;
   bottom: 0;
-  color: #5B6584; }
+  color: #586F90; }
   footer a.link, footer p, footer a span {
-    color: #5B6584; }
+    color: #586F90; }
   footer h6 {
     font-weight: 700;
     margin-bottom: 12px; }
