@@ -3834,14 +3834,16 @@ section.bg-img {
     background-size: cover;
     background-position: center center; }
   section.bg-img.mira {
-    background: url("/img/1.jpg") no-repeat;
+    background: url("") no-repeat;
+    background-color: #39b54a;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
   section.bg-img.hyemin {
-    background: url("/img/2.jpg") no-repeat;
+    background: url("") no-repeat;
+    background-color: #5B6584;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3849,6 +3851,7 @@ section.bg-img {
     background-position: center center; }
   section.bg-img.keongmi {
     background: url("/img/1.jpg") no-repeat;
+    background-color: #5B6584;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3869,7 +3872,8 @@ section.bg-img {
     background-size: cover;
     background-position: center center; }
   section.bg-img.somi {
-    background: url("/img/2.jpg") no-repeat;
+    background: url("") no-repeat;
+    background-color: #5B6584;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3883,14 +3887,16 @@ section.bg-img {
     background-size: cover;
     background-position: center center; }
   section.bg-img.miso {
-    background: url("/img/1.jpg") no-repeat;
+    background: url("") no-repeat;
+    background-color: #5B6584;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
   section.bg-img.youngbin {
-    background: url("/img/2.jpg") no-repeat;
+    background: url("") no-repeat;
+    background-color: #5B6584;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
