@@ -192,12 +192,21 @@ section.bg-img {
     background-position: center center;
   }
   &.heewon {
-    background: url('/img/1.jpg') no-repeat;
+    background: url('/img/bg_heewon.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
+    .section-title,
+    h4,
+    p {
+      color: $dark-grey;
+    }
+    a {
+      border: 1px solid $dark-grey;
+      color: $dark-grey;
+    }
   }
 }
 

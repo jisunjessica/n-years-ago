@@ -3903,12 +3903,19 @@ section.bg-img {
     background-size: cover;
     background-position: center center; }
   section.bg-img.heewon {
-    background: url("/img/1.jpg") no-repeat;
+    background: url("/img/bg_heewon.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
+    section.bg-img.heewon .section-title,
+    section.bg-img.heewon h4,
+    section.bg-img.heewon p {
+      color: #333; }
+    section.bg-img.heewon a {
+      border: 1px solid #333;
+      color: #333; }
 
 h1.text-js.hero-title {
   margin-bottom: 10px; }
