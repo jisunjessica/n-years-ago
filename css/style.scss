@@ -20,6 +20,7 @@ $sm-screen: 500px;
 /********************************************
 GENERAL
 ********************************************/
+
 .site-header, .site-footer {
   display: none;
 }
@@ -531,6 +532,7 @@ footer {
 
 canvas {
   position: relative;
+  overflow: hidden;
 }
 
 .text-center {
