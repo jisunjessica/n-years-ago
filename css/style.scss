@@ -32,7 +32,9 @@ GENERAL
 }
 .sans,
 .artwork-description,
-.artwork-description strong {
+.artwork-description strong,
+ul.exhibition-detail-info li,
+.detail-info-title {
   font-family: 'Spoqa Han Sans', sans-serif;
 }
 
@@ -114,8 +116,7 @@ section.bg-img {
     background-position: center center;
   }
   &.mira {
-    background: url('') no-repeat;
-    background-color: #39b54a;
+    background: url('/img/bg-mira.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -124,7 +125,7 @@ section.bg-img {
   }
   &.hyemin {
     background: url('') no-repeat;
-    background-color: $primary-color;
+    background-color: #DBBEE7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -168,7 +169,7 @@ section.bg-img {
   }
   &.somi {
     background: url('') no-repeat;
-    background-color: $primary-color;
+    background-color: #5B5F73;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -195,7 +196,7 @@ section.bg-img {
   }
   &.miso {
     background: url('') no-repeat;
-    background-color: $primary-color;
+    background-color: #F4799E;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -204,7 +205,7 @@ section.bg-img {
   }
   &.youngbin {
     background: url('') no-repeat;
-    background-color: $primary-color;
+    background-color: #523459;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -310,14 +311,16 @@ nav {
 
   .site-title,
   .nav-menu li a {
-    text-shadow: 1px 1px #000000;
+    text-shadow: 1px 1px 4px rgba(#000, 0.4);
+    text-decoration: none;
   }
 
   .site-title {
     font-size: 20px;
     display: inline-block;
     text-align: center;
-    &:hover {
+    &:hover,
+    &:visited {
       text-decoration: none;
       color: $white;
     }
@@ -327,13 +330,11 @@ nav {
   }
 
   .nav-menu li a {
-    text-decoration: none;
     background-color: rgba($white, 0);
     color: rgba($white, 0.9);
     font-size: 20px;
     font-weight: 500;
     padding: 2px 8px;
-
 
     -webkit-transition: background-color .20s ease-out;
     -moz-transition: background-color .20s ease-out;
@@ -384,6 +385,13 @@ p.introduction {
 ul.exhibition-detail-info li {
   line-height: 1.9em;
 }
+
+.adhoc-br {
+  display: none;
+  @media only screen and (max-width: $sm-screen) {
+    display: block;
+  }
+}
 /********************************************
 ARTISTS
 ********************************************/
@@ -392,18 +400,23 @@ ARTISTS
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.detail-info-title,
 .vertical-divider {
-  color: rgba($white, 0);
+  color: rgba($white, 0.2);
 }
 .artwork-title {
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 14px;
+  @media only screen and (max-width: $sm-screen) {
+    font-size: 18px;
+  }
 }
 .artwork-description {
   font-size: 16px;
   font-weight: 300;
   margin-bottom: 50px;
+  word-break: keep-all;
 }
 
 /********************************************
