@@ -122,6 +122,16 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
+
+    .section-title,
+    h4,
+    p {
+      color: $dark-grey;
+    }
+    a {
+      border: 1px solid $dark-grey;
+      color: $dark-grey;
+    }
   }
   &.hyemin {
     background: url('') no-repeat;
@@ -311,7 +321,7 @@ nav {
 
   .site-title,
   .nav-menu li a {
-    text-shadow: 1px 1px 4px rgba(#000, 0.4);
+    text-shadow: 1px 1px 4px rgba(#000, 0.3);
     text-decoration: none;
   }
 
@@ -404,6 +414,9 @@ ARTISTS
 .vertical-divider {
   color: rgba($white, 0.2);
 }
+.artist-contact .vertical-divider {
+  color: rgba($white, 0);
+}
 .artwork-title {
   font-size: 26px;
   font-weight: 500;
@@ -415,8 +428,11 @@ ARTISTS
 .artwork-description {
   font-size: 16px;
   font-weight: 300;
-  margin-bottom: 50px;
   word-break: keep-all;
+}
+
+.artist-contact {
+  margin-top: 50px;
 }
 
 /********************************************

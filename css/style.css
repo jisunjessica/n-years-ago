@@ -3842,6 +3842,13 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
+    section.bg-img.mira .section-title,
+    section.bg-img.mira h4,
+    section.bg-img.mira p {
+      color: #333; }
+    section.bg-img.mira a {
+      border: 1px solid #333;
+      color: #333; }
   section.bg-img.hyemin {
     background: url("") no-repeat;
     background-color: #DBBEE7;
@@ -4000,7 +4007,7 @@ nav {
   background-color: transparent; }
   nav .site-title,
   nav .nav-menu li a {
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
     text-decoration: none; }
   nav .site-title {
     font-size: 20px;
@@ -4073,6 +4080,9 @@ ARTISTS
 .vertical-divider {
   color: rgba(255, 255, 255, 0.2); }
 
+.artist-contact .vertical-divider {
+  color: rgba(255, 255, 255, 0); }
+
 .artwork-title {
   font-size: 26px;
   font-weight: 500;
@@ -4084,8 +4094,10 @@ ARTISTS
 .artwork-description {
   font-size: 16px;
   font-weight: 300;
-  margin-bottom: 50px;
   word-break: keep-all; }
+
+.artist-contact {
+  margin-top: 50px; }
 
 /********************************************
 GROUP-INFO
