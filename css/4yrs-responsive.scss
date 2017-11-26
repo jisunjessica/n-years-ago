@@ -36,6 +36,10 @@
     right: 0px;
     position: static;
     margin-top: 2px;
+
+    li {
+      margin-right: 4px;
+    }
   }
   .col-sm-83 {
     width: 100%;
@@ -53,11 +57,6 @@
 @media screen and (max-width: 767px) {
   div {
     overflow-x: hidden;
-    &.wave {
-      overflow-x: visible;
-      position: fixed;
-      bottom: 110px;
-    }
   }
   #artists {
     h4 {
