@@ -83,7 +83,7 @@
         // Fit renderer to the screen
         if ( options.fullScreen === true ) {
           renderer.view.style.objectFit = 'none';
-          renderer.view.style.width     = 'window.innerWidth'; //100%
+          renderer.view.style.width     = '100%'; //100%
           renderer.view.style.height    = '100%';
           renderer.view.style.top       = '0%';
           renderer.view.style.left      = '50%';
