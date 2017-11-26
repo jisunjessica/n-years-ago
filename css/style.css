@@ -4241,10 +4241,6 @@ footer {
     transform: translate(0px, 0px) rotate(10deg); }
   100% {
     transform: translate(0px, 10px) rotate(-5deg); } }
-canvas {
-  position: relative;
-  overflow: hidden; }
-
 .text-center {
   text-align: center; }
 
