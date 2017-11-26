@@ -32,13 +32,9 @@ GENERAL
 }
 .sans,
 .artwork-description,
-<<<<<<< HEAD
 .artwork-description strong,
 ul.exhibition-detail-info li,
 .detail-info-title {
-=======
-.artwork-description strong {
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
   font-family: 'Spoqa Han Sans', sans-serif;
 }
 
@@ -98,7 +94,6 @@ section {
   padding-bottom: 40px;
   margin-top: 0;
   margin-bottom: 0;
-<<<<<<< HEAD
 }
 
 section.bg-img {
@@ -247,111 +242,6 @@ section.bg-img {
   }
 }
 
-=======
-}
-
-section.bg-img {
-  padding-top: 140px;
-  padding-bottom: 140px;
-  background-color: $primary-color;
-  @media only screen and (max-width: $sm-screen) {
-    padding-top: 90px;
-    padding-bottom: 90px;
-  }
-
-  &.main {
-    padding-top: 160px;
-    text-align: center;
-    background: url('/img/2.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-  &.mira {
-    background: url('/img/1.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-  &.hyemin {
-    background: url('/img/2.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-  &.keongmi {
-    background: url('/img/1.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-  &.jisun {
-    background: url('/img/bg-jisun.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-  &.eunji {
-    background: url('/img/1.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-  &.somi {
-    background: url('/img/2.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-  &.gayoung {
-    background: url('/img/2.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-  &.miso {
-    background: url('/img/1.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-  &.youngbin {
-    background: url('/img/2.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-  &.heewon {
-    background: url('/img/1.jpg') no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
-}
-
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
 h1.text-js.hero-title {
   margin-bottom: 10px;
 }
@@ -393,7 +283,6 @@ h1.text-js.hero-title {
   &:hover {
     text-decoration: none;
   }
-<<<<<<< HEAD
 }
 
 .btn-line {
@@ -406,20 +295,6 @@ h1.text-js.hero-title {
   }
 }
 
-=======
-}
-
-.btn-line {
-  border-radius: 0;
-  color: $white;
-  padding: 14px 34px;
-  border: 2px solid $white;
-  &:hover {
-    background-color: rgba($white, 0.5);
-  }
-}
-
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
 .btn-line-sm {
   border-radius: 0;
   font-size: 16px;
@@ -444,25 +319,19 @@ nav {
   width: 100%;
   background-color: transparent;
 
-<<<<<<< HEAD
   .site-title,
   .nav-menu li a {
     text-shadow: 1px 1px 4px rgba(#000, 0.3);
     text-decoration: none;
   }
 
-=======
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
   .site-title {
     font-size: 20px;
     display: inline-block;
     text-align: center;
-<<<<<<< HEAD
+
     &:hover,
     &:visited {
-=======
-    &:hover {
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
       text-decoration: none;
       color: $white;
     }
@@ -472,10 +341,6 @@ nav {
   }
 
   .nav-menu li a {
-<<<<<<< HEAD
-=======
-    text-decoration: none;
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
     background-color: rgba($white, 0);
     color: rgba($white, 0.9);
     font-size: 20px;
@@ -490,26 +355,11 @@ nav {
     &:hover {
       color: $dark-grey;
       background-color: rgba($white, 0.6);
-<<<<<<< HEAD
       text-shadow: none;
-=======
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
     }
     @media only screen and (max-width: $sm-screen) {
       font-size: 18px;
     }
-<<<<<<< HEAD
-=======
-    // .btn-line {
-    //   border-radius: 0;
-    //   color: $white;
-    //   padding: 14px 34px;
-    //   border: 2px solid $white;
-    //   &:hover {
-    //     background-color: rgba($white, 0.5);
-    //   }
-    // }
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
   }
 
 }
@@ -537,7 +387,6 @@ MAIN
   }
 }
 
-<<<<<<< HEAD
 p.introduction {
   margin-bottom: 30px;
   line-height: 1.9em;
@@ -554,8 +403,7 @@ ul.exhibition-detail-info li {
     display: block;
   }
 }
-=======
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
+
 /********************************************
 ARTISTS
 ********************************************/
@@ -564,7 +412,7 @@ ARTISTS
   margin-top: 20px;
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
+
 .detail-info-title,
 .vertical-divider {
   color: rgba($white, 0.2);
@@ -588,20 +436,6 @@ ARTISTS
 
 .artist-contact {
   margin-top: 50px;
-=======
-.vertical-divider {
-  color: rgba($white, 0);
-}
-.artwork-title {
-  font-size: 26px;
-  font-weight: 500;
-  margin-bottom: 14px;
-}
-.artwork-description {
-  font-size: 16px;
-  font-weight: 300;
-  margin-bottom: 50px;
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
 }
 
 /********************************************
@@ -695,33 +529,10 @@ footer {
 	}
 }
 
-<<<<<<< HEAD
 canvas {
   position: relative;
 }
 
 .text-center {
   text-align: center;
-=======
-//countdown-contents
-
-.countdown-contents {
- background-color: #5B6584;
- div {
-   margin: 35vh 0;
-   text-align: center;
- }
- #count {
-   color: white;
-   font-size: 2em;
- }
- .text {
-   color: white;
-   font-size: 2.8em;
- }
- .location {
-   margin-top: 10px;
-   margin-bottom: 5px;
- }
->>>>>>> 2012a3ca8812fbad66178ef78860fc76257d4fbc
 }
