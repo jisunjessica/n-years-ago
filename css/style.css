@@ -3772,7 +3772,9 @@ GENERAL
 
 .sans,
 .artwork-description,
-.artwork-description strong {
+.artwork-description strong,
+ul.exhibition-detail-info li,
+.detail-info-title {
   font-family: 'Spoqa Han Sans', sans-serif; }
 
 .text-bold {
@@ -3813,8 +3815,7 @@ section {
   width: 100%;
   padding-top: 90px;
   padding-bottom: 40px;
-  margin-top: 0;
-  margin-bottom: 0; }
+  margin: 0; }
 
 section.bg-img {
   padding-top: 140px;
@@ -3827,33 +3828,49 @@ section.bg-img {
   section.bg-img.main {
     padding-top: 160px;
     text-align: center;
-    background: url("/img/2.jpg") no-repeat;
+    background: url("/img/bg-poster2.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
   section.bg-img.mira {
-    background: url("/img/1.jpg") no-repeat;
+    background: url("/img/bg-mira.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
+    section.bg-img.mira .section-title,
+    section.bg-img.mira h4,
+    section.bg-img.mira p {
+      color: #333; }
+    section.bg-img.mira a {
+      border: 1px solid #333;
+      color: #333; }
   section.bg-img.hyemin {
-    background: url("/img/2.jpg") no-repeat;
+    background: url("") no-repeat;
+    background-color: #DBBEE7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
   section.bg-img.keongmi {
-    background: url("/img/1.jpg") no-repeat;
+    background: url("/img/bg-kyungmi.jpg") no-repeat;
+    background-color: #5B6584;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
+    section.bg-img.keongmi .section-title,
+    section.bg-img.keongmi h4,
+    section.bg-img.keongmi p {
+      color: #333; }
+    section.bg-img.keongmi a {
+      border: 1px solid #333;
+      color: #333; }
   section.bg-img.jisun {
     background: url("/img/bg-jisun.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -3862,47 +3879,64 @@ section.bg-img {
     background-size: cover;
     background-position: center center; }
   section.bg-img.eunji {
-    background: url("/img/1.jpg") no-repeat;
+    background: url("/img/bg-eunji.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
   section.bg-img.somi {
-    background: url("/img/2.jpg") no-repeat;
+    background: url("") no-repeat;
+    background-color: #5B5F73;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
   section.bg-img.gayoung {
-    background: url("/img/2.jpg") no-repeat;
+    background: url("/img/bg-gayoung.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
+    section.bg-img.gayoung .section-title,
+    section.bg-img.gayoung h4,
+    section.bg-img.gayoung p {
+      color: #333; }
+    section.bg-img.gayoung a {
+      border: 1px solid #333;
+      color: #333; }
   section.bg-img.miso {
-    background: url("/img/1.jpg") no-repeat;
+    background: url("") no-repeat;
+    background-color: #F4799E;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
   section.bg-img.youngbin {
-    background: url("/img/2.jpg") no-repeat;
+    background: url("") no-repeat;
+    background-color: #523459;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
   section.bg-img.heewon {
-    background: url("/img/1.jpg") no-repeat;
+    background: url("/img/bg-heewon.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
+    section.bg-img.heewon .section-title,
+    section.bg-img.heewon h4,
+    section.bg-img.heewon p {
+      color: #333; }
+    section.bg-img.heewon a {
+      border: 1px solid #333;
+      color: #333; }
 
 h1.text-js.hero-title {
   margin-bottom: 10px; }
@@ -3970,18 +4004,21 @@ nav {
   display: inline-block;
   width: 100%;
   background-color: transparent; }
+  nav .site-title,
+  nav .nav-menu li a {
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    text-decoration: none; }
   nav .site-title {
     font-size: 20px;
     display: inline-block;
     text-align: center; }
-    nav .site-title:hover {
+    nav .site-title:hover, nav .site-title:visited {
       text-decoration: none;
       color: #fff; }
     @media only screen and (max-width: 500px) {
       nav .site-title {
         font-size: 18px; } }
   nav .nav-menu li a {
-    text-decoration: none;
     background-color: rgba(255, 255, 255, 0);
     color: rgba(255, 255, 255, 0.9);
     font-size: 20px;
@@ -3993,7 +4030,8 @@ nav {
     transition: background-color .20s ease-out; }
     nav .nav-menu li a:hover {
       color: #333;
-      background-color: rgba(255, 255, 255, 0.6); }
+      background-color: rgba(255, 255, 255, 0.6);
+      text-shadow: none; }
     @media only screen and (max-width: 500px) {
       nav .nav-menu li a {
         font-size: 18px; } }
@@ -4016,6 +4054,20 @@ MAIN
     .exhibition-info {
       font-size: 20px; } }
 
+p.introduction {
+  margin-bottom: 30px;
+  line-height: 1.9em;
+  word-break: keep-all; }
+
+ul.exhibition-detail-info li {
+  line-height: 1.9em; }
+
+.adhoc-br {
+  display: none; }
+  @media only screen and (max-width: 500px) {
+    .adhoc-br {
+      display: block; } }
+
 /********************************************
 ARTISTS
 ********************************************/
@@ -4023,18 +4075,28 @@ ARTISTS
   margin-top: 20px;
   margin-bottom: 20px; }
 
+.detail-info-title,
 .vertical-divider {
+  color: rgba(255, 255, 255, 0.2); }
+
+.artist-contact .vertical-divider {
   color: rgba(255, 255, 255, 0); }
 
 .artwork-title {
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 14px; }
+  @media only screen and (max-width: 500px) {
+    .artwork-title {
+      font-size: 18px; } }
 
 .artwork-description {
   font-size: 16px;
   font-weight: 300;
-  margin-bottom: 50px; }
+  word-break: keep-all; }
+
+.artist-contact {
+  margin-top: 50px; }
 
 /********************************************
 GROUP-INFO
@@ -4102,8 +4164,6 @@ footer {
     right: 0px;
     position: static;
     margin-top: 2px; }
-    ul.nav-menu li {
-      margin-right: 4px; }
 
   .col-sm-83 {
     width: 100%; } }
@@ -4114,6 +4174,10 @@ footer {
 @media screen and (max-width: 767px) {
   div {
     overflow-x: hidden; }
+    div.wave {
+      overflow-x: visible;
+      position: fixed;
+      bottom: 110px; }
 
   #artists h4 {
     margin-bottom: 2px; }
@@ -4139,10 +4203,8 @@ footer {
   div {
     overflow-x: hidden; }
 
-  ul.nav-menu {
-    float: left; }
-    ul.nav-menu a {
-      padding-left: 0; }
+  ul.nav-menu a {
+    padding-left: 0; }
 
   .thumbnail.hover {
     width: 300px;
@@ -4178,6 +4240,9 @@ footer {
     transform: translate(0px, 0px) rotate(10deg); }
   100% {
     transform: translate(0px, 10px) rotate(-5deg); } }
+.text-center {
+  text-align: center; }
+
 .countdown-contents {
   background-color: #5B6584; }
   .countdown-contents div {

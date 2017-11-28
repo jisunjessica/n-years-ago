@@ -20,6 +20,7 @@ $sm-screen: 500px;
 /********************************************
 GENERAL
 ********************************************/
+
 .site-header, .site-footer {
   display: none;
 }
@@ -32,7 +33,9 @@ GENERAL
 }
 .sans,
 .artwork-description,
-.artwork-description strong {
+.artwork-description strong,
+ul.exhibition-detail-info li,
+.detail-info-title {
   font-family: 'Spoqa Han Sans', sans-serif;
 }
 
@@ -90,8 +93,7 @@ section {
   width: 100%;
   padding-top: 90px;
   padding-bottom: 40px;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 section.bg-img {
@@ -106,7 +108,7 @@ section.bg-img {
   &.main {
     padding-top: 160px;
     text-align: center;
-    background: url('/img/2.jpg') no-repeat;
+    background: url('/img/bg-poster2.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -114,15 +116,26 @@ section.bg-img {
     background-position: center center;
   }
   &.mira {
-    background: url('/img/1.jpg') no-repeat;
+    background: url('/img/bg-mira.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
+
+    .section-title,
+    h4,
+    p {
+      color: $dark-grey;
+    }
+    a {
+      border: 1px solid $dark-grey;
+      color: $dark-grey;
+    }
   }
   &.hyemin {
-    background: url('/img/2.jpg') no-repeat;
+    background: url('') no-repeat;
+    background-color: #DBBEE7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -130,12 +143,23 @@ section.bg-img {
     background-position: center center;
   }
   &.keongmi {
-    background: url('/img/1.jpg') no-repeat;
+    background: url('/img/bg-kyungmi.jpg') no-repeat;
+    background-color: $primary-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
+
+    .section-title,
+    h4,
+    p {
+      color: $dark-grey;
+    }
+    a {
+      border: 1px solid $dark-grey;
+      color: $dark-grey;
+    }
   }
   &.jisun {
     background: url('/img/bg-jisun.jpg') no-repeat;
@@ -146,7 +170,7 @@ section.bg-img {
     background-position: center center;
   }
   &.eunji {
-    background: url('/img/1.jpg') no-repeat;
+    background: url('/img/bg-eunji.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -154,7 +178,8 @@ section.bg-img {
     background-position: center center;
   }
   &.somi {
-    background: url('/img/2.jpg') no-repeat;
+    background: url('') no-repeat;
+    background-color: #5B5F73;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -162,15 +187,26 @@ section.bg-img {
     background-position: center center;
   }
   &.gayoung {
-    background: url('/img/2.jpg') no-repeat;
+    background: url('/img/bg-gayoung.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
+
+    .section-title,
+    h4,
+    p {
+      color: $dark-grey;
+    }
+    a {
+      border: 1px solid $dark-grey;
+      color: $dark-grey;
+    }
   }
   &.miso {
-    background: url('/img/1.jpg') no-repeat;
+    background: url('') no-repeat;
+    background-color: #F4799E;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -178,7 +214,8 @@ section.bg-img {
     background-position: center center;
   }
   &.youngbin {
-    background: url('/img/2.jpg') no-repeat;
+    background: url('') no-repeat;
+    background-color: #523459;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -186,12 +223,22 @@ section.bg-img {
     background-position: center center;
   }
   &.heewon {
-    background: url('/img/1.jpg') no-repeat;
+    background: url('/img/bg-heewon.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
+
+    .section-title,
+    h4,
+    p {
+      color: $dark-grey;
+    }
+    a {
+      border: 1px solid $dark-grey;
+      color: $dark-grey;
+    }
   }
 }
 
@@ -272,11 +319,19 @@ nav {
   width: 100%;
   background-color: transparent;
 
+  .site-title,
+  .nav-menu li a {
+    text-shadow: 1px 1px 4px rgba(#000, 0.3);
+    text-decoration: none;
+  }
+
   .site-title {
     font-size: 20px;
     display: inline-block;
     text-align: center;
-    &:hover {
+
+    &:hover,
+    &:visited {
       text-decoration: none;
       color: $white;
     }
@@ -286,7 +341,6 @@ nav {
   }
 
   .nav-menu li a {
-    text-decoration: none;
     background-color: rgba($white, 0);
     color: rgba($white, 0.9);
     font-size: 20px;
@@ -301,19 +355,11 @@ nav {
     &:hover {
       color: $dark-grey;
       background-color: rgba($white, 0.6);
+      text-shadow: none;
     }
     @media only screen and (max-width: $sm-screen) {
       font-size: 18px;
     }
-    // .btn-line {
-    //   border-radius: 0;
-    //   color: $white;
-    //   padding: 14px 34px;
-    //   border: 2px solid $white;
-    //   &:hover {
-    //     background-color: rgba($white, 0.5);
-    //   }
-    // }
   }
 
 }
@@ -341,6 +387,23 @@ MAIN
   }
 }
 
+p.introduction {
+  margin-bottom: 30px;
+  line-height: 1.9em;
+  word-break: keep-all;
+}
+
+ul.exhibition-detail-info li {
+  line-height: 1.9em;
+}
+
+.adhoc-br {
+  display: none;
+  @media only screen and (max-width: $sm-screen) {
+    display: block;
+  }
+}
+
 /********************************************
 ARTISTS
 ********************************************/
@@ -349,18 +412,30 @@ ARTISTS
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.detail-info-title,
 .vertical-divider {
+  color: rgba($white, 0.2);
+}
+.artist-contact .vertical-divider {
   color: rgba($white, 0);
 }
 .artwork-title {
   font-size: 26px;
   font-weight: 500;
   margin-bottom: 14px;
+  @media only screen and (max-width: $sm-screen) {
+    font-size: 18px;
+  }
 }
 .artwork-description {
   font-size: 16px;
   font-weight: 300;
-  margin-bottom: 50px;
+  word-break: keep-all;
+}
+
+.artist-contact {
+  margin-top: 50px;
 }
 
 /********************************************
@@ -453,6 +528,11 @@ footer {
 		transform: translate(0px, 10px) rotate(-5deg);
 	}
 }
+
+.text-center {
+  text-align: center;
+}
+
 
 //countdown-contents
 
