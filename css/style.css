@@ -4243,4 +4243,19 @@ footer {
 .text-center {
   text-align: center; }
 
+.countdown-contents {
+  background-color: #5B6584; }
+  .countdown-contents div {
+    margin: 35vh 0;
+    text-align: center; }
+  .countdown-contents #count {
+    color: white;
+    font-size: 2em; }
+  .countdown-contents .text {
+    color: white;
+    font-size: 2.8em; }
+  .countdown-contents .location {
+    margin-top: 10px;
+    margin-bottom: 5px; }
+
 /*# sourceMappingURL=style.css.map */

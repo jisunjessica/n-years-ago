@@ -532,3 +532,26 @@ footer {
 .text-center {
   text-align: center;
 }
+
+
+//countdown-contents
+
+.countdown-contents {
+ background-color: #5B6584;
+ div {
+   margin: 35vh 0;
+   text-align: center;
+ }
+ #count {
+   color: white;
+   font-size: 2em;
+ }
+ .text {
+   color: white;
+   font-size: 2.8em;
+ }
+ .location {
+   margin-top: 10px;
+   margin-bottom: 5px;
+ }
+}
