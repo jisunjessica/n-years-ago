@@ -3996,12 +3996,13 @@ h1.text-js.hero-title {
 /********************************************
 RIPPLE CANVAS
 ********************************************/
-#ripple-canvas {
+#ripple-canvas-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   z-index: -1;
   pointer-events: none; }
 
