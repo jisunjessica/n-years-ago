@@ -90,31 +90,14 @@ main {
 	position: relative;
 	width: 100%;
 }
-
-.content--fixed {
-	position: inherit; /* fixed */
-	z-index: 1;
-	top: 0;
-	left: 0;
-	display: grid;
-	align-content: space-between;
-	width: 100%;
-	max-width: none;
-	height: 100vh;
-	padding: 1.5em;
-	pointer-events: none;
-	/*grid-template-columns: 50% 50%;
-	grid-template-rows: auto auto 4em;
-	grid-template-areas: 'header ...'
-	'... ...'
-	'github demos';*/
+main .container {
+	padding: 140px 0;
 }
 
-.content--fixed a {
+a {
 	pointer-events: auto;
 	font-weight: 500;
 }
-
 
 /* component.css */
 
