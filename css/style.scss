@@ -3,17 +3,11 @@
 @import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
 
 @import "reset";
-@import "variables";
-@import "grid";
 @import "hover";
 
 $white: #fff;
 $primary-color: #5B6584;
-$poster-txt: $white;
 $dark-grey: #333;
-$grey-25: #d0d0d0;
-$grey-txt: #712bce;
-$grey-txt-d1: $poster-txt;
 $border-radius-base: 3px;
 $sm-screen: 500px;
 $xs-screen: 320px;
@@ -22,16 +16,13 @@ $xs-screen: 320px;
 GENERAL
 ********************************************/
 
-.site-header, .site-footer {
-  display: none;
-}
-
 * {
   color: $white;
   font-size: 20px;
   line-height: 1.5em;
   font-family: 'Nanum Myeongjo', serif;
 }
+
 .sans,
 .artwork-description,
 .artwork-description strong,
@@ -76,13 +67,6 @@ a {
 
 h1 {
   font-size: 1.8em;
-}
-h3 {
-
-}
-
-p {
-
 }
 
 ol li, ul li {
@@ -221,6 +205,7 @@ h1.text-js.hero-title {
     min-height: 48px;
   }
 }
+
 .section-title {
   font-size: 36px;
   font-weight: 300;
@@ -241,6 +226,7 @@ h1.text-js.hero-title {
 }
 
 .btn {
+  border-radius: 0;
   display: inline-block;
   font-size: 20px;
   font-weight: 700;
@@ -250,25 +236,25 @@ h1.text-js.hero-title {
   }
 }
 
-.btn-line {
-  border-radius: 0;
+.btn-line,
+.btn-line-sm {
   color: $white;
-  padding: 14px 34px;
-  border: 2px solid $white;
+  background-color: rgba($white, 0.1);
+
   &:hover {
     background-color: rgba($white, 0.5);
   }
 }
 
+.btn-line {
+  padding: 14px 34px;
+  border: 2px solid $white;
+}
+
 .btn-line-sm {
-  border-radius: 0;
-  font-size: 16px;
-  color: $white;
   padding: 8px 34px;
   border: 1px solid $white;
-  &:hover {
-    background-color: rgba($white, 0.5);
-  }
+  font-size: 16px;
 }
 
 /********************************************
@@ -290,7 +276,7 @@ NAVIGATION
 ********************************************/
 
 nav {
-  padding: 14px 20px;
+  padding: 24px 20px;
   z-index: 1100;
   top: 0;
   position: fixed;
@@ -308,7 +294,7 @@ nav {
     font-size: 20px;
     display: inline-block;
     text-align: center;
-    padding: 2px 8px;
+    padding: 2px 0px;
 
     &:hover,
     &:visited {
@@ -508,8 +494,6 @@ footer {
 }
 **/
 
-
-
 .wave {
 	font-size: 40px;
 	position: relative;
@@ -536,25 +520,4 @@ footer {
   text-align: center;
 }
 
-
-//countdown-contents
-
-.countdown-contents {
- background-color: #5B6584;
- div {
-   margin: 35vh 0;
-   text-align: center;
- }
- #count {
-   color: white;
-   font-size: 2em;
- }
- .text {
-   color: white;
-   font-size: 2.8em;
- }
- .location {
-   margin-top: 10px;
-   margin-bottom: 5px;
- }
-}
+@import "../_sass/countdown";

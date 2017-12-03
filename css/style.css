@@ -45,9 +45,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-.col-sm-83 {
-  width: 83.3%; }
-
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.1.0
@@ -3761,9 +3758,6 @@ table {
 /********************************************
 GENERAL
 ********************************************/
-.site-header, .site-footer {
-  display: none; }
-
 * {
   color: #fff;
   font-size: 20px;
@@ -3947,6 +3941,7 @@ h1.text-js.hero-title {
   background-color: #5B6584; }
 
 .btn {
+  border-radius: 0;
   display: inline-block;
   font-size: 20px;
   font-weight: 700;
@@ -3954,22 +3949,22 @@ h1.text-js.hero-title {
   .btn:hover {
     text-decoration: none; }
 
-.btn-line {
-  border-radius: 0;
-  color: #fff;
-  padding: 14px 34px;
-  border: 2px solid #fff; }
-  .btn-line:hover {
-    background-color: rgba(255, 255, 255, 0.5); }
-
+.btn-line,
 .btn-line-sm {
-  border-radius: 0;
-  font-size: 16px;
   color: #fff;
-  padding: 8px 34px;
-  border: 1px solid #fff; }
+  background-color: rgba(255, 255, 255, 0.1); }
+  .btn-line:hover,
   .btn-line-sm:hover {
     background-color: rgba(255, 255, 255, 0.5); }
+
+.btn-line {
+  padding: 14px 34px;
+  border: 2px solid #fff; }
+
+.btn-line-sm {
+  padding: 8px 34px;
+  border: 1px solid #fff;
+  font-size: 16px; }
 
 /********************************************
 RIPPLE CANVAS
@@ -3988,7 +3983,7 @@ RIPPLE CANVAS
 NAVIGATION
 ********************************************/
 nav {
-  padding: 14px 20px;
+  padding: 24px 20px;
   z-index: 1100;
   top: 0;
   position: fixed;
@@ -4003,7 +3998,7 @@ nav {
     font-size: 20px;
     display: inline-block;
     text-align: center;
-    padding: 2px 8px; }
+    padding: 2px 0px; }
     nav .site-title:hover, nav .site-title:visited {
       text-decoration: none;
       color: #fff; }
