@@ -4009,6 +4009,9 @@ nav {
     @media only screen and (max-width: 500px) {
       nav .site-title {
         font-size: 18px; } }
+    @media only screen and (max-width: 320px) {
+      nav .site-title {
+        font-size: 15px; } }
   nav .nav-menu li a {
     background-color: rgba(255, 255, 255, 0);
     color: rgba(255, 255, 255, 0.9);
@@ -4026,6 +4029,10 @@ nav {
     @media only screen and (max-width: 500px) {
       nav .nav-menu li a {
         font-size: 18px; } }
+    @media only screen and (max-width: 320px) {
+      nav .nav-menu li a {
+        font-size: 15px;
+        padding: 2px 6px; } }
 
 ul.nav-menu {
   display: inline-flex;
@@ -4047,7 +4054,7 @@ MAIN
 
 p.introduction {
   margin-bottom: 30px;
-  line-height: 1.9em;
+  line-height: 1.7em;
   word-break: keep-all; }
 
 ul.exhibition-detail-info li {
@@ -4165,10 +4172,6 @@ footer {
 @media screen and (max-width: 767px) {
   div {
     overflow-x: hidden; }
-    div.wave {
-      overflow-x: visible;
-      position: fixed;
-      bottom: 110px; }
 
   #artists h4 {
     margin-bottom: 2px; }

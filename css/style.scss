@@ -16,6 +16,7 @@ $grey-txt: #712bce;
 $grey-txt-d1: $poster-txt;
 $border-radius-base: 3px;
 $sm-screen: 500px;
+$xs-screen: 320px;
 
 /********************************************
 GENERAL
@@ -316,6 +317,9 @@ nav {
     @media only screen and (max-width: $sm-screen) {
       font-size: 18px;
     }
+    @media only screen and (max-width: $xs-screen) {
+      font-size: 15px;
+    }
   }
 
   .nav-menu li a {
@@ -337,6 +341,10 @@ nav {
     }
     @media only screen and (max-width: $sm-screen) {
       font-size: 18px;
+    }
+    @media only screen and (max-width: $xs-screen) {
+      font-size: 15px;
+      padding: 2px 6px;
     }
   }
 
@@ -367,7 +375,7 @@ MAIN
 
 p.introduction {
   margin-bottom: 30px;
-  line-height: 1.9em;
+  line-height: 1.7em;
   word-break: keep-all;
 }
 
