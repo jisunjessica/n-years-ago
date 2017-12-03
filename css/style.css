@@ -3988,7 +3988,7 @@ RIPPLE CANVAS
 NAVIGATION
 ********************************************/
 nav {
-  padding: 34px 20px 14px 20px;
+  padding: 14px 20px;
   z-index: 1100;
   top: 0;
   position: fixed;
@@ -4002,7 +4002,8 @@ nav {
   nav .site-title {
     font-size: 20px;
     display: inline-block;
-    text-align: center; }
+    text-align: center;
+    padding: 2px 8px; }
     nav .site-title:hover, nav .site-title:visited {
       text-decoration: none;
       color: #fff; }
@@ -4040,6 +4041,13 @@ ul.nav-menu {
   text-align: right; }
   ul.nav-menu li {
     padding: 0px 4px; }
+
+.topnav-color {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333; }
+  .topnav-color a, .topnav-color a:hover, .topnav-color a:active, .topnav-color a:visited, .topnav-color ul li a, .topnav-color ul li a:hover, .topnav-color ul li a:active, .topnav-color ul li a:visited {
+    text-shadow: none;
+    color: #333; }
 
 /********************************************
 MAIN

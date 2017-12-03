@@ -10,7 +10,7 @@
 	</head>
 	<body class="loading">
 		<div id="ripple-canvas-container"></div>
-		<nav>
+		<nav class="topnav topnav-color">
 			<a href="#" class="site-title">
 				벌써 오년 전展
 			</a>
@@ -80,6 +80,27 @@
 
   		{{ content }}
 
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript">
+		  $(function () {
+		      var $window = $(window);
+					var $topnav = $('.topnav');
+		      set();
+		      $window.on('scroll resize', set);
+		      function set() {
+		          var scrollTop = $window.scrollTop();
+		          if (scrollTop < videoHeight()) {
+									$topnav.removeClass('topnav-color');
+		          } else {
+		              $topnav.addClass('topnav-color');
+		          }
+		      }
+		      function videoHeight() {
+		          var ratio = 9 / 16;
+		          return Math.max($window.width() * ratio, 430);
+		      }
+		  });
+		</script>
   	<footer>
 	    <div class="container-fluid">
 	      <div class="row">

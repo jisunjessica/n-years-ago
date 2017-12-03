@@ -290,7 +290,7 @@ NAVIGATION
 ********************************************/
 
 nav {
-  padding: 34px 20px 14px 20px;
+  padding: 14px 20px;
   z-index: 1100;
   top: 0;
   position: fixed;
@@ -308,6 +308,7 @@ nav {
     font-size: 20px;
     display: inline-block;
     text-align: center;
+    padding: 2px 8px;
 
     &:hover,
     &:visited {
@@ -357,6 +358,22 @@ ul.nav-menu {
 
   li {
     padding: 0px 4px;
+  }
+}
+
+.topnav-color {
+  background-color: rgba(white, 0.8);
+  color: $dark-grey;
+
+  & a,
+  & ul li a {
+    &,
+    &:hover,
+    &:active,
+    &:visited {
+      text-shadow: none;
+      color: $dark-grey;
+    }
   }
 }
 
