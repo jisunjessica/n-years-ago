@@ -104,7 +104,21 @@ section.bg-img {
     padding-top: 90px;
     padding-bottom: 90px;
   }
-
+  &.mira,
+  &.hyemin,
+  &.keongmi,
+  &.gayoung,
+  &.heewon {
+    .section-title,
+    h4,
+    p {
+      color: $dark-grey;
+    }
+    a {
+      border: 1px solid $dark-grey;
+      color: $dark-grey;
+    }
+  }
   &.main {
     padding-top: 160px;
     text-align: center;
@@ -122,20 +136,9 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
-
-    .section-title,
-    h4,
-    p {
-      color: $dark-grey;
-    }
-    a {
-      border: 1px solid $dark-grey;
-      color: $dark-grey;
-    }
   }
   &.hyemin {
-    background: url('') no-repeat;
-    background-color: #DBBEE7;
+    background: url('/img/bg-hyemin.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -150,16 +153,6 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
-
-    .section-title,
-    h4,
-    p {
-      color: $dark-grey;
-    }
-    a {
-      border: 1px solid $dark-grey;
-      color: $dark-grey;
-    }
   }
   &.jisun {
     background: url('/img/bg-jisun.jpg') no-repeat;
@@ -177,15 +170,6 @@ section.bg-img {
     background-size: cover;
     background-position: center center;
   }
-  &.somi {
-    background: url('') no-repeat;
-    background-color: #5B5F73;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-  }
   &.gayoung {
     background: url('/img/bg-gayoung.jpg') no-repeat;
     -webkit-background-size: cover;
@@ -193,16 +177,6 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
-
-    .section-title,
-    h4,
-    p {
-      color: $dark-grey;
-    }
-    a {
-      border: 1px solid $dark-grey;
-      color: $dark-grey;
-    }
   }
   &.miso {
     background: url('') no-repeat;
@@ -213,8 +187,8 @@ section.bg-img {
     background-size: cover;
     background-position: center center;
   }
-  &.youngbin {
-    background: url('') no-repeat;
+  &.youngbean {
+    background: url('/img/bg-youngbean.jpg') no-repeat;
     background-color: #523459;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -229,16 +203,6 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
-
-    .section-title,
-    h4,
-    p {
-      color: $dark-grey;
-    }
-    a {
-      border: 1px solid $dark-grey;
-      color: $dark-grey;
-    }
   }
 }
 

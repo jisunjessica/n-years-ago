@@ -3825,6 +3825,21 @@ section.bg-img {
     section.bg-img {
       padding-top: 90px;
       padding-bottom: 90px; } }
+  section.bg-img.mira .section-title,
+  section.bg-img.mira h4,
+  section.bg-img.mira p, section.bg-img.hyemin .section-title,
+  section.bg-img.hyemin h4,
+  section.bg-img.hyemin p, section.bg-img.keongmi .section-title,
+  section.bg-img.keongmi h4,
+  section.bg-img.keongmi p, section.bg-img.gayoung .section-title,
+  section.bg-img.gayoung h4,
+  section.bg-img.gayoung p, section.bg-img.heewon .section-title,
+  section.bg-img.heewon h4,
+  section.bg-img.heewon p {
+    color: #333; }
+  section.bg-img.mira a, section.bg-img.hyemin a, section.bg-img.keongmi a, section.bg-img.gayoung a, section.bg-img.heewon a {
+    border: 1px solid #333;
+    color: #333; }
   section.bg-img.main {
     padding-top: 160px;
     text-align: center;
@@ -3841,16 +3856,8 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
-    section.bg-img.mira .section-title,
-    section.bg-img.mira h4,
-    section.bg-img.mira p {
-      color: #333; }
-    section.bg-img.mira a {
-      border: 1px solid #333;
-      color: #333; }
   section.bg-img.hyemin {
-    background: url("") no-repeat;
-    background-color: #DBBEE7;
+    background: url("/img/bg-hyemin.jpg") no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -3864,13 +3871,6 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
-    section.bg-img.keongmi .section-title,
-    section.bg-img.keongmi h4,
-    section.bg-img.keongmi p {
-      color: #333; }
-    section.bg-img.keongmi a {
-      border: 1px solid #333;
-      color: #333; }
   section.bg-img.jisun {
     background: url("/img/bg-jisun.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -3885,14 +3885,6 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
-  section.bg-img.somi {
-    background: url("") no-repeat;
-    background-color: #5B5F73;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center center; }
   section.bg-img.gayoung {
     background: url("/img/bg-gayoung.jpg") no-repeat;
     -webkit-background-size: cover;
@@ -3900,13 +3892,6 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
-    section.bg-img.gayoung .section-title,
-    section.bg-img.gayoung h4,
-    section.bg-img.gayoung p {
-      color: #333; }
-    section.bg-img.gayoung a {
-      border: 1px solid #333;
-      color: #333; }
   section.bg-img.miso {
     background: url("") no-repeat;
     background-color: #F4799E;
@@ -3915,8 +3900,8 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
-  section.bg-img.youngbin {
-    background: url("") no-repeat;
+  section.bg-img.youngbean {
+    background: url("/img/bg-youngbean.jpg") no-repeat;
     background-color: #523459;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -3930,13 +3915,6 @@ section.bg-img {
     -o-background-size: cover;
     background-size: cover;
     background-position: center center; }
-    section.bg-img.heewon .section-title,
-    section.bg-img.heewon h4,
-    section.bg-img.heewon p {
-      color: #333; }
-    section.bg-img.heewon a {
-      border: 1px solid #333;
-      color: #333; }
 
 h1.text-js.hero-title {
   margin-bottom: 10px; }
