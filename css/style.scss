@@ -350,6 +350,7 @@ ul.nav-menu {
 .topnav-color {
   background-color: rgba(white, 0.8);
   color: $dark-grey;
+  border-bottom: 1px solid $dark-grey;
 
   & a,
   & ul li a {
@@ -472,6 +473,9 @@ footer {
   h6 {
     font-weight: 700;
     margin-bottom: 12px;
+  }
+  @media only screen and (max-width: $sm-screen) {
+    font-size: 13px;
   }
 }
 

@@ -4039,7 +4039,8 @@ ul.nav-menu {
 
 .topnav-color {
   background-color: rgba(255, 255, 255, 0.8);
-  color: #333; }
+  color: #333;
+  border-bottom: 1px solid #333; }
   .topnav-color a, .topnav-color a:hover, .topnav-color a:active, .topnav-color a:visited, .topnav-color ul li a, .topnav-color ul li a:hover, .topnav-color ul li a:active, .topnav-color ul li a:visited {
     text-shadow: none;
     color: #333; }
@@ -4135,6 +4136,9 @@ footer {
   footer h6 {
     font-weight: 700;
     margin-bottom: 12px; }
+  @media only screen and (max-width: 500px) {
+    footer {
+      font-size: 13px; } }
 
 @media screen and (max-width: 2600px) {
   .thumbnail.hover {
