@@ -132,7 +132,6 @@ section.bg-img {
   }
   &.keongmi {
     background: url('/img/bg-kyungmi.jpg') no-repeat;
-    background-color: $primary-color;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -164,7 +163,6 @@ section.bg-img {
     background-position: center center;
   }
   &.miso {
-    background: url('') no-repeat;
     background-color: #F4799E;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -174,7 +172,6 @@ section.bg-img {
   }
   &.youngbean {
     background: url('/img/bg-youngbean.jpg') no-repeat;
-    background-color: #523459;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
